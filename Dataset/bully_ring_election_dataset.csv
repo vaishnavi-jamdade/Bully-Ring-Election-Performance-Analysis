@@ -1,0 +1,1001 @@
+Algorithm,Number of Nodes,Failed Nodes,Active Nodes,Failure Rate %,Failure Condition,Coordinator Failure,Initiator Node,Coordinator Node,Messages Sent,Election Rounds,Election Time (ms),Success/Failure,Execution Run,Random Seed,Messages per Active Node,Time per Active Node
+Bully,5,0,5,0,no failure,No,2,1,13,4,8.814,Success,1,20760111,2.6,1.7628
+Bully,5,0,5,0,no failure,No,1,3,20,3,7.757,Success,2,20760112,4,1.5514
+Bully,5,0,5,0,no failure,No,3,3,15,4,9.463,Success,3,20760113,3,1.8926
+Bully,5,0,5,0,no failure,No,4,2,12,5,7.74,Success,4,20760114,2.4,1.548
+Bully,5,0,5,0,no failure,No,1,1,16,5,7.797,Success,5,20760115,3.2,1.5594
+Bully,5,0,5,0,single failure (no failures at 0%),No,4,4,12,5,8.48,Success,1,20760121,2.4,1.696
+Bully,5,0,5,0,single failure (no failures at 0%),No,2,2,18,4,9.768,Success,2,20760122,3.6,1.9536
+Bully,5,0,5,0,single failure (no failures at 0%),No,2,5,15,5,5.771,Success,3,20760123,3,1.1542
+Bully,5,0,5,0,single failure (no failures at 0%),No,2,2,20,5,6.493,Success,4,20760124,4,1.2986
+Bully,5,0,5,0,single failure (no failures at 0%),No,3,5,16,4,5.324,Success,5,20760125,3.2,1.0648
+Bully,5,0,5,0,multiple failures (no failures at 0%),No,2,4,16,3,5.892,Success,1,20760131,3.2,1.1784
+Bully,5,0,5,0,multiple failures (no failures at 0%),No,4,4,19,4,8.473,Success,2,20760132,3.8,1.6946
+Bully,5,0,5,0,multiple failures (no failures at 0%),No,4,3,12,5,6.575,Success,3,20760133,2.4,1.315
+Bully,5,0,5,0,multiple failures (no failures at 0%),No,5,5,15,3,7.911,Success,4,20760134,3,1.5822
+Bully,5,0,5,0,multiple failures (no failures at 0%),No,2,4,13,5,8.242,Success,5,20760135,2.6,1.6484
+Bully,5,0,5,0,coordinator failure (no failures at 0%),No,1,2,13,3,6.564,Success,1,20760141,2.6,1.3128
+Bully,5,0,5,0,coordinator failure (no failures at 0%),No,4,5,13,4,6.1,Success,2,20760142,2.6,1.22
+Bully,5,0,5,0,coordinator failure (no failures at 0%),No,1,5,13,3,7.588,Success,3,20760143,2.6,1.5176
+Bully,5,0,5,0,coordinator failure (no failures at 0%),No,1,5,13,4,6.476,Success,4,20760144,2.6,1.2952
+Bully,5,0,5,0,coordinator failure (no failures at 0%),No,3,4,19,4,8.671,Success,5,20760145,3.8,1.7342
+Ring,5,0,5,0,no failure,No,5,2,15,2,5.305,Success,1,20760211,3,1.061
+Ring,5,0,5,0,no failure,No,4,4,14,2,3.56,Success,2,20760212,2.8,0.712
+Ring,5,0,5,0,no failure,No,2,1,15,2,4.969,Success,3,20760213,3,0.9938
+Ring,5,0,5,0,no failure,No,2,5,13,1,4.014,Success,4,20760214,2.6,0.8028
+Ring,5,0,5,0,no failure,No,4,4,12,2,5.308,Success,5,20760215,2.4,1.0616
+Ring,5,0,5,0,single failure (no failures at 0%),No,3,1,14,3,2.798,Success,1,20760221,2.8,0.5596
+Ring,5,0,5,0,single failure (no failures at 0%),No,1,5,11,2,5.997,Success,2,20760222,2.2,1.1994
+Ring,5,0,5,0,single failure (no failures at 0%),No,1,2,15,2,5.233,Success,3,20760223,3,1.0466
+Ring,5,0,5,0,single failure (no failures at 0%),No,5,3,13,2,4.967,Success,4,20760224,2.6,0.9934
+Ring,5,0,5,0,single failure (no failures at 0%),No,5,1,11,1,4.479,Success,5,20760225,2.2,0.8958
+Ring,5,0,5,0,multiple failures (no failures at 0%),No,5,3,14,2,4.139,Success,1,20760231,2.8,0.8278
+Ring,5,0,5,0,multiple failures (no failures at 0%),No,1,3,12,1,3.057,Success,2,20760232,2.4,0.6114
+Ring,5,0,5,0,multiple failures (no failures at 0%),No,1,1,13,1,4.253,Success,3,20760233,2.6,0.8506
+Ring,5,0,5,0,multiple failures (no failures at 0%),No,2,4,15,3,5.728,Success,4,20760234,3,1.1456
+Ring,5,0,5,0,multiple failures (no failures at 0%),No,3,2,12,2,3.371,Success,5,20760235,2.4,0.6742
+Ring,5,0,5,0,coordinator failure (no failures at 0%),No,3,5,14,1,2.983,Success,1,20760241,2.8,0.5966
+Ring,5,0,5,0,coordinator failure (no failures at 0%),No,1,4,11,3,5.998,Success,2,20760242,2.2,1.1996
+Ring,5,0,5,0,coordinator failure (no failures at 0%),No,3,3,13,3,4.341,Success,3,20760243,2.6,0.8682
+Ring,5,0,5,0,coordinator failure (no failures at 0%),No,2,2,15,3,5.167,Success,4,20760244,3,1.0334
+Ring,5,0,5,0,coordinator failure (no failures at 0%),No,5,1,14,2,6.224,Success,5,20760245,2.8,1.2448
+Bully,5,0,5,10,no failure,No,1,5,14,3,8.237,Success,1,20770111,2.8,1.6474
+Bully,5,0,5,10,no failure,No,1,5,12,5,5.497,Success,2,20770112,2.4,1.0994
+Bully,5,0,5,10,no failure,No,3,3,13,4,8.396,Success,3,20770113,2.6,1.6792
+Bully,5,0,5,10,no failure,No,1,1,18,3,8.251,Success,4,20770114,3.6,1.6502
+Bully,5,0,5,10,no failure,No,1,3,16,3,9.353,Success,5,20770115,3.2,1.8706
+Bully,5,1,4,10,single failure,No,4,3,16,5,5.763,Success,1,20770121,4,1.44075
+Bully,5,1,4,10,single failure,No,3,3,15,3,9.403,Success,2,20770122,3.75,2.35075
+Bully,5,1,4,10,single failure,No,1,4,16,3,6.415,Success,3,20770123,4,1.60375
+Bully,5,1,4,10,single failure,No,5,3,13,3,5.551,Success,4,20770124,3.25,1.38775
+Bully,5,1,4,10,single failure,No,2,5,13,5,8.809,Success,5,20770125,3.25,2.20225
+Bully,5,2,3,10,multiple failures,No,5,4,14,3,6.914,Success,1,20770131,4.667,2.30467
+Bully,5,2,3,10,multiple failures,No,5,3,17,4,8.905,Success,2,20770132,5.667,2.96833
+Bully,5,2,3,10,multiple failures,No,2,5,18,5,7.402,Success,3,20770133,6,2.46733
+Bully,5,2,3,10,multiple failures,No,3,4,13,4,9.801,Success,4,20770134,4.333,3.267
+Bully,5,2,3,10,multiple failures,No,4,5,13,3,7.124,Success,5,20770135,4.333,2.37467
+Bully,5,1,4,10,coordinator failure,Yes,4,5,14,5,7.631,Success,1,20770141,3.5,1.90775
+Bully,5,1,4,10,coordinator failure,Yes,5,3,15,3,9.345,Success,2,20770142,3.75,2.33625
+Bully,5,1,4,10,coordinator failure,Yes,2,3,12,5,8.352,Success,3,20770143,3,2.088
+Bully,5,1,4,10,coordinator failure,Yes,4,2,18,3,9.853,Success,4,20770144,4.5,2.46325
+Bully,5,1,4,10,coordinator failure,Yes,5,2,19,5,5.691,Success,5,20770145,4.75,1.42275
+Ring,5,0,5,10,no failure,No,1,3,12,1,5.346,Success,1,20770211,2.4,1.0692
+Ring,5,0,5,10,no failure,No,4,1,11,3,3.215,Success,2,20770212,2.2,0.643
+Ring,5,0,5,10,no failure,No,1,1,12,3,4.537,Success,3,20770213,2.4,0.9074
+Ring,5,0,5,10,no failure,No,5,1,12,2,5.699,Success,4,20770214,2.4,1.1398
+Ring,5,0,5,10,no failure,No,5,5,13,1,2.91,Success,5,20770215,2.6,0.582
+Ring,5,1,4,10,single failure,No,2,2,12,2,4.083,Success,1,20770221,3,1.02075
+Ring,5,1,4,10,single failure,No,1,4,13,2,5.205,Success,2,20770222,3.25,1.30125
+Ring,5,1,4,10,single failure,No,1,5,11,1,3.538,Success,3,20770223,2.75,0.8845
+Ring,5,1,4,10,single failure,No,3,4,12,3,4.753,Success,4,20770224,3,1.18825
+Ring,5,1,4,10,single failure,No,5,2,10,2,5.871,Success,5,20770225,2.5,1.46775
+Ring,5,2,3,10,multiple failures,No,4,3,11,3,4.378,Success,1,20770231,3.667,1.45933
+Ring,5,2,3,10,multiple failures,No,1,3,13,3,5.453,Success,2,20770232,4.333,1.81767
+Ring,5,2,3,10,multiple failures,No,1,3,11,1,3.709,Success,3,20770233,3.667,1.23633
+Ring,5,2,3,10,multiple failures,No,1,4,12,2,3.352,Success,4,20770234,4,1.11733
+Ring,5,2,3,10,multiple failures,No,2,5,11,2,5.722,Success,5,20770235,3.667,1.90733
+Ring,5,1,4,10,coordinator failure,Yes,2,5,10,2,3.571,Success,1,20770241,2.5,0.89275
+Ring,5,1,4,10,coordinator failure,Yes,2,3,12,1,4.716,Success,2,20770242,3,1.179
+Ring,5,1,4,10,coordinator failure,Yes,3,5,12,3,5.508,Success,3,20770243,3,1.377
+Ring,5,1,4,10,coordinator failure,Yes,2,5,14,2,4.555,Success,4,20770244,3.5,1.13875
+Ring,5,1,4,10,coordinator failure,Yes,2,3,13,1,3.758,Success,5,20770245,3.25,0.9395
+Bully,5,0,5,20,no failure,No,4,3,16,4,7.319,Success,1,20780111,3.2,1.4638
+Bully,5,0,5,20,no failure,No,2,1,12,5,5.584,Success,2,20780112,2.4,1.1168
+Bully,5,0,5,20,no failure,No,3,5,18,4,7.722,Success,3,20780113,3.6,1.5444
+Bully,5,0,5,20,no failure,No,4,1,20,4,8.498,Success,4,20780114,4,1.6996
+Bully,5,0,5,20,no failure,No,3,1,19,3,7.044,Success,5,20780115,3.8,1.4088
+Bully,5,1,4,20,single failure,No,1,4,16,5,7.71,Success,1,20780121,4,1.9275
+Bully,5,1,4,20,single failure,No,1,4,14,3,7.83,Success,2,20780122,3.5,1.9575
+Bully,5,1,4,20,single failure,No,4,3,15,5,5.692,Success,3,20780123,3.75,1.423
+Bully,5,1,4,20,single failure,No,4,4,18,4,7.908,Success,4,20780124,4.5,1.977
+Bully,5,1,4,20,single failure,No,5,3,15,3,8.12,Success,5,20780125,3.75,2.03
+Bully,5,2,3,20,multiple failures,No,3,3,20,5,9.006,Success,1,20780131,6.667,3.002
+Bully,5,2,3,20,multiple failures,No,5,4,21,3,9.968,Success,2,20780132,7,3.32267
+Bully,5,2,3,20,multiple failures,No,1,3,17,4,8.865,Success,3,20780133,5.667,2.955
+Bully,5,2,3,20,multiple failures,No,3,4,21,4,6.659,Success,4,20780134,7,2.21967
+Bully,5,2,3,20,multiple failures,No,1,5,18,5,9.762,Success,5,20780135,6,3.254
+Bully,5,1,4,20,coordinator failure,Yes,1,2,19,4,6.694,Success,1,20780141,4.75,1.6735
+Bully,5,1,4,20,coordinator failure,Yes,5,4,19,3,8.489,Success,2,20780142,4.75,2.12225
+Bully,5,1,4,20,coordinator failure,Yes,5,1,12,3,8.723,Success,3,20780143,3,2.18075
+Bully,5,1,4,20,coordinator failure,Yes,5,3,20,3,6.166,Success,4,20780144,5,1.5415
+Bully,5,1,4,20,coordinator failure,Yes,3,5,18,5,5.88,Success,5,20780145,4.5,1.47
+Ring,5,0,5,20,no failure,No,5,4,14,2,3.881,Success,1,20780211,2.8,0.7762
+Ring,5,0,5,20,no failure,No,2,3,15,3,4.125,Success,2,20780212,3,0.825
+Ring,5,0,5,20,no failure,No,3,4,12,1,3.437,Success,3,20780213,2.4,0.6874
+Ring,5,0,5,20,no failure,No,1,2,13,3,3.358,Success,4,20780214,2.6,0.6716
+Ring,5,0,5,20,no failure,No,5,1,12,2,3.841,Success,5,20780215,2.4,0.7682
+Ring,5,1,4,20,single failure,No,5,3,11,1,3.677,Success,1,20780221,2.75,0.91925
+Ring,5,1,4,20,single failure,No,3,3,11,1,5.757,Success,2,20780222,2.75,1.43925
+Ring,5,1,4,20,single failure,No,4,5,10,1,3.104,Success,3,20780223,2.5,0.776
+Ring,5,1,4,20,single failure,No,1,2,13,2,3.413,Success,4,20780224,3.25,0.85325
+Ring,5,1,4,20,single failure,No,5,2,11,3,5.018,Success,5,20780225,2.75,1.2545
+Ring,5,2,3,20,multiple failures,No,3,5,13,2,3.579,Success,1,20780231,4.333,1.193
+Ring,5,2,3,20,multiple failures,No,3,5,10,3,5.901,Success,2,20780232,3.333,1.967
+Ring,5,2,3,20,multiple failures,No,3,3,13,2,3.089,Success,3,20780233,4.333,1.02967
+Ring,5,2,3,20,multiple failures,No,3,5,10,2,3.525,Success,4,20780234,3.333,1.175
+Ring,5,2,3,20,multiple failures,No,3,4,13,2,6.03,Success,5,20780235,4.333,2.01
+Ring,5,1,4,20,coordinator failure,Yes,1,4,14,2,3.774,Success,1,20780241,3.5,0.9435
+Ring,5,1,4,20,coordinator failure,Yes,1,2,13,2,3.056,Success,2,20780242,3.25,0.764
+Ring,5,1,4,20,coordinator failure,Yes,5,4,10,1,2.983,Success,3,20780243,2.5,0.74575
+Ring,5,1,4,20,coordinator failure,Yes,1,5,14,2,5.254,Success,4,20780244,3.5,1.3135
+Ring,5,1,4,20,coordinator failure,Yes,1,3,13,2,4.568,Success,5,20780245,3.25,1.142
+Bully,5,0,5,30,no failure,No,3,3,16,5,8.582,Success,1,20790111,3.2,1.7164
+Bully,5,0,5,30,no failure,No,3,5,16,4,7.381,Success,2,20790112,3.2,1.4762
+Bully,5,0,5,30,no failure,No,2,5,13,4,5.468,Success,3,20790113,2.6,1.0936
+Bully,5,0,5,30,no failure,No,2,2,14,5,7.249,Success,4,20790114,2.8,1.4498
+Bully,5,0,5,30,no failure,No,3,5,13,5,6.663,Success,5,20790115,2.6,1.3326
+Bully,5,1,4,30,single failure,No,4,2,20,4,6.046,Success,1,20790121,5,1.5115
+Bully,5,1,4,30,single failure,No,2,2,14,3,9.452,Success,2,20790122,3.5,2.363
+Bully,5,1,4,30,single failure,No,2,5,18,4,5.493,Success,3,20790123,4.5,1.37325
+Bully,5,1,4,30,single failure,No,1,2,13,4,8.79,Success,4,20790124,3.25,2.1975
+Bully,5,1,4,30,single failure,No,4,5,15,5,6.634,Success,5,20790125,3.75,1.6585
+Bully,5,2,3,30,multiple failures,No,3,5,19,3,10.156,Success,1,20790131,6.333,3.38533
+Bully,5,2,3,30,multiple failures,No,4,5,21,4,6.149,Success,2,20790132,7,2.04967
+Bully,5,2,3,30,multiple failures,No,1,4,20,3,8.297,Success,3,20790133,6.667,2.76567
+Bully,5,2,3,30,multiple failures,No,3,4,14,5,9.132,Success,4,20790134,4.667,3.044
+Bully,5,2,3,30,multiple failures,No,3,5,18,4,7.197,Success,5,20790135,6,2.399
+Bully,5,1,4,30,coordinator failure,Yes,1,2,13,4,5.816,Success,1,20790141,3.25,1.454
+Bully,5,1,4,30,coordinator failure,Yes,3,1,21,3,7.086,Success,2,20790142,5.25,1.7715
+Bully,5,1,4,30,coordinator failure,Yes,3,1,16,5,8.996,Success,3,20790143,4,2.249
+Bully,5,1,4,30,coordinator failure,Yes,3,5,14,5,7.954,Success,4,20790144,3.5,1.9885
+Bully,5,1,4,30,coordinator failure,Yes,5,1,19,3,8.056,Success,5,20790145,4.75,2.014
+Ring,5,0,5,30,no failure,No,4,3,12,3,4.859,Success,1,20790211,2.4,0.9718
+Ring,5,0,5,30,no failure,No,5,3,11,2,2.991,Success,2,20790212,2.2,0.5982
+Ring,5,0,5,30,no failure,No,5,2,15,3,4.801,Success,3,20790213,3,0.9602
+Ring,5,0,5,30,no failure,No,4,3,12,3,4.214,Success,4,20790214,2.4,0.8428
+Ring,5,0,5,30,no failure,No,3,1,12,1,3.836,Success,5,20790215,2.4,0.7672
+Ring,5,1,4,30,single failure,No,2,3,10,2,4.167,Success,1,20790221,2.5,1.04175
+Ring,5,1,4,30,single failure,No,2,5,14,1,4.238,Success,2,20790222,3.5,1.0595
+Ring,5,1,4,30,single failure,No,4,4,11,1,5.511,Success,3,20790223,2.75,1.37775
+Ring,5,1,4,30,single failure,No,1,4,12,3,5.138,Success,4,20790224,3,1.2845
+Ring,5,1,4,30,single failure,No,3,2,12,1,2.783,Success,5,20790225,3,0.69575
+Ring,5,2,3,30,multiple failures,No,1,5,10,3,5.76,Success,1,20790231,3.333,1.92
+Ring,5,2,3,30,multiple failures,No,3,5,11,2,5.503,Success,2,20790232,3.667,1.83433
+Ring,5,2,3,30,multiple failures,No,5,3,13,2,3.553,Success,3,20790233,4.333,1.18433
+Ring,5,2,3,30,multiple failures,No,2,5,12,3,2.956,Success,4,20790234,4,0.98533
+Ring,5,2,3,30,multiple failures,No,3,3,14,2,2.832,Success,5,20790235,4.667,0.944
+Ring,5,1,4,30,coordinator failure,Yes,5,1,12,3,4.291,Success,1,20790241,3,1.07275
+Ring,5,1,4,30,coordinator failure,Yes,5,4,13,3,6.161,Success,2,20790242,3.25,1.54025
+Ring,5,1,4,30,coordinator failure,Yes,3,2,12,3,4.011,Success,3,20790243,3,1.00275
+Ring,5,1,4,30,coordinator failure,Yes,5,3,10,2,5.05,Success,4,20790244,2.5,1.2625
+Ring,5,1,4,30,coordinator failure,Yes,3,4,12,1,3.96,Success,5,20790245,3,0.99
+Bully,5,0,5,40,no failure,No,1,4,20,4,6.586,Success,1,20800111,4,1.3172
+Bully,5,0,5,40,no failure,No,5,1,16,3,9.195,Success,2,20800112,3.2,1.839
+Bully,5,0,5,40,no failure,No,1,3,13,5,5.094,Success,3,20800113,2.6,1.0188
+Bully,5,0,5,40,no failure,No,2,4,18,5,5.505,Success,4,20800114,3.6,1.101
+Bully,5,0,5,40,no failure,No,3,4,12,3,9.055,Success,5,20800115,2.4,1.811
+Bully,5,1,4,40,single failure,No,4,3,19,5,8.107,Success,1,20800121,4.75,2.02675
+Bully,5,1,4,40,single failure,No,4,2,21,4,6.49,Success,2,20800122,5.25,1.6225
+Bully,5,1,4,40,single failure,No,2,4,13,4,8.606,Success,3,20800123,3.25,2.1515
+Bully,5,1,4,40,single failure,No,2,3,20,5,6.921,Success,4,20800124,5,1.73025
+Bully,5,1,4,40,single failure,No,5,4,14,3,9.014,Success,5,20800125,3.5,2.2535
+Bully,5,2,3,40,multiple failures,No,5,4,19,4,8.957,Success,1,20800131,6.333,2.98567
+Bully,5,2,3,40,multiple failures,No,3,3,20,5,7.884,Success,2,20800132,6.667,2.628
+Bully,5,2,3,40,multiple failures,No,4,3,21,5,6.948,Success,3,20800133,7,2.316
+Bully,5,2,3,40,multiple failures,No,2,4,15,4,6.763,Success,4,20800134,5,2.25433
+Bully,5,2,3,40,multiple failures,No,4,5,18,4,8.032,Success,5,20800135,6,2.67733
+Bully,5,1,4,40,coordinator failure,Yes,2,4,14,3,6.001,Success,1,20800141,3.5,1.50025
+Bully,5,1,4,40,coordinator failure,Yes,4,1,21,5,6.862,Success,2,20800142,5.25,1.7155
+Bully,5,1,4,40,coordinator failure,Yes,5,1,14,5,5.827,Success,3,20800143,3.5,1.45675
+Bully,5,1,4,40,coordinator failure,Yes,2,4,13,5,9.135,Success,4,20800144,3.25,2.28375
+Bully,5,1,4,40,coordinator failure,Yes,1,3,16,4,7.302,Success,5,20800145,4,1.8255
+Ring,5,0,5,40,no failure,No,4,4,13,2,4.915,Success,1,20800211,2.6,0.983
+Ring,5,0,5,40,no failure,No,1,5,12,1,4.166,Success,2,20800212,2.4,0.8332
+Ring,5,0,5,40,no failure,No,4,3,15,2,2.92,Success,3,20800213,3,0.584
+Ring,5,0,5,40,no failure,No,2,4,13,3,4.089,Success,4,20800214,2.6,0.8178
+Ring,5,0,5,40,no failure,No,5,2,12,1,4.997,Success,5,20800215,2.4,0.9994
+Ring,5,1,4,40,single failure,No,2,4,10,3,5.435,Success,1,20800221,2.5,1.35875
+Ring,5,1,4,40,single failure,No,4,2,12,1,4.306,Success,2,20800222,3,1.0765
+Ring,5,1,4,40,single failure,No,2,5,10,1,2.713,Success,3,20800223,2.5,0.67825
+Ring,5,1,4,40,single failure,No,5,5,10,2,4.238,Success,4,20800224,2.5,1.0595
+Ring,5,1,4,40,single failure,No,1,5,10,1,5.971,Success,5,20800225,2.5,1.49275
+Ring,5,2,3,40,multiple failures,No,5,5,11,1,4.685,Success,1,20800231,3.667,1.56167
+Ring,5,2,3,40,multiple failures,No,1,4,14,3,5.809,Success,2,20800232,4.667,1.93633
+Ring,5,2,3,40,multiple failures,No,3,5,10,1,5.246,Success,3,20800233,3.333,1.74867
+Ring,5,2,3,40,multiple failures,No,3,5,12,3,5.745,Success,4,20800234,4,1.915
+Ring,5,2,3,40,multiple failures,No,5,5,13,2,2.891,Success,5,20800235,4.333,0.96367
+Ring,5,1,4,40,coordinator failure,Yes,1,3,13,2,6.067,Success,1,20800241,3.25,1.51675
+Ring,5,1,4,40,coordinator failure,Yes,2,3,11,2,3.883,Success,2,20800242,2.75,0.97075
+Ring,5,1,4,40,coordinator failure,Yes,1,3,10,3,6.112,Success,3,20800243,2.5,1.528
+Ring,5,1,4,40,coordinator failure,Yes,5,1,14,1,2.864,Success,4,20800244,3.5,0.716
+Ring,5,1,4,40,coordinator failure,Yes,1,2,13,1,3.227,Success,5,20800245,3.25,0.80675
+Bully,10,0,10,0,no failure,No,1,2,53,4,14.261,Success,1,21260111,5.3,1.4261
+Bully,10,0,10,0,no failure,No,5,3,54,4,13.821,Success,2,21260112,5.4,1.3821
+Bully,10,0,10,0,no failure,No,8,5,51,4,16.059,Success,3,21260113,5.1,1.6059
+Bully,10,0,10,0,no failure,No,3,5,50,5,13.261,Success,4,21260114,5,1.3261
+Bully,10,0,10,0,no failure,No,6,4,60,4,14.172,Success,5,21260115,6,1.4172
+Bully,10,0,10,0,single failure (no failures at 0%),No,1,1,54,4,13.967,Success,1,21260121,5.4,1.3967
+Bully,10,0,10,0,single failure (no failures at 0%),No,2,8,57,6,16.451,Success,2,21260122,5.7,1.6451
+Bully,10,0,10,0,single failure (no failures at 0%),No,8,6,52,4,15.654,Success,3,21260123,5.2,1.5654
+Bully,10,0,10,0,single failure (no failures at 0%),No,4,1,65,6,15.435,Success,4,21260124,6.5,1.5435
+Bully,10,0,10,0,single failure (no failures at 0%),No,5,9,62,5,13.938,Success,5,21260125,6.2,1.3938
+Bully,10,0,10,0,multiple failures (no failures at 0%),No,3,7,60,6,15.952,Success,1,21260131,6,1.5952
+Bully,10,0,10,0,multiple failures (no failures at 0%),No,1,7,64,6,13.5,Success,2,21260132,6.4,1.35
+Bully,10,0,10,0,multiple failures (no failures at 0%),No,5,10,59,6,12.965,Success,3,21260133,5.9,1.2965
+Bully,10,0,10,0,multiple failures (no failures at 0%),No,10,6,59,6,13.301,Success,4,21260134,5.9,1.3301
+Bully,10,0,10,0,multiple failures (no failures at 0%),No,1,1,58,6,15.281,Success,5,21260135,5.8,1.5281
+Bully,10,0,10,0,coordinator failure (no failures at 0%),No,2,2,57,5,14.523,Success,1,21260141,5.7,1.4523
+Bully,10,0,10,0,coordinator failure (no failures at 0%),No,1,2,54,6,13.242,Success,2,21260142,5.4,1.3242
+Bully,10,0,10,0,coordinator failure (no failures at 0%),No,8,7,64,6,16.604,Success,3,21260143,6.4,1.6604
+Bully,10,0,10,0,coordinator failure (no failures at 0%),No,5,8,63,6,12.914,Success,4,21260144,6.3,1.2914
+Bully,10,0,10,0,coordinator failure (no failures at 0%),No,3,7,55,4,12.082,Success,5,21260145,5.5,1.2082
+Ring,10,0,10,0,no failure,No,10,2,26,2,8.178,Success,1,21260211,2.6,0.8178
+Ring,10,0,10,0,no failure,No,7,10,28,2,6.601,Success,2,21260212,2.8,0.6601
+Ring,10,0,10,0,no failure,No,8,3,24,3,6.752,Success,3,21260213,2.4,0.6752
+Ring,10,0,10,0,no failure,No,2,2,30,1,8.149,Success,4,21260214,3,0.8149
+Ring,10,0,10,0,no failure,No,9,10,24,3,5.433,Success,5,21260215,2.4,0.5433
+Ring,10,0,10,0,single failure (no failures at 0%),No,6,1,23,3,7.168,Success,1,21260221,2.3,0.7168
+Ring,10,0,10,0,single failure (no failures at 0%),No,6,4,27,1,5.728,Success,2,21260222,2.7,0.5728
+Ring,10,0,10,0,single failure (no failures at 0%),No,5,6,23,3,5.231,Success,3,21260223,2.3,0.5231
+Ring,10,0,10,0,single failure (no failures at 0%),No,2,7,29,2,7.985,Success,4,21260224,2.9,0.7985
+Ring,10,0,10,0,single failure (no failures at 0%),No,7,5,26,2,4.991,Success,5,21260225,2.6,0.4991
+Ring,10,0,10,0,multiple failures (no failures at 0%),No,5,3,27,3,7.19,Success,1,21260231,2.7,0.719
+Ring,10,0,10,0,multiple failures (no failures at 0%),No,8,6,29,2,5.781,Success,2,21260232,2.9,0.5781
+Ring,10,0,10,0,multiple failures (no failures at 0%),No,5,8,26,3,7.225,Success,3,21260233,2.6,0.7225
+Ring,10,0,10,0,multiple failures (no failures at 0%),No,7,1,24,2,7.965,Success,4,21260234,2.4,0.7965
+Ring,10,0,10,0,multiple failures (no failures at 0%),No,8,8,24,2,8.101,Success,5,21260235,2.4,0.8101
+Ring,10,0,10,0,coordinator failure (no failures at 0%),No,4,8,30,3,8.366,Success,1,21260241,3,0.8366
+Ring,10,0,10,0,coordinator failure (no failures at 0%),No,9,2,28,2,6.707,Success,2,21260242,2.8,0.6707
+Ring,10,0,10,0,coordinator failure (no failures at 0%),No,6,2,29,1,7.332,Success,3,21260243,2.9,0.7332
+Ring,10,0,10,0,coordinator failure (no failures at 0%),No,9,4,30,3,7.135,Success,4,21260244,3,0.7135
+Ring,10,0,10,0,coordinator failure (no failures at 0%),No,7,2,30,3,8.025,Success,5,21260245,3,0.8025
+Bully,10,0,10,10,no failure,No,5,8,62,5,13.428,Success,1,21270111,6.2,1.3428
+Bully,10,0,10,10,no failure,No,9,8,55,5,14.832,Success,2,21270112,5.5,1.4832
+Bully,10,0,10,10,no failure,No,3,4,60,4,14.077,Success,3,21270113,6,1.4077
+Bully,10,0,10,10,no failure,No,5,7,50,6,14.937,Success,4,21270114,5,1.4937
+Bully,10,0,10,10,no failure,No,1,1,63,5,13.288,Success,5,21270115,6.3,1.3288
+Bully,10,1,9,10,single failure,No,10,7,52,5,15.958,Success,1,21270121,5.778,1.77311
+Bully,10,1,9,10,single failure,No,2,4,60,4,15.038,Success,2,21270122,6.667,1.67089
+Bully,10,1,9,10,single failure,No,3,4,65,4,16.134,Success,3,21270123,7.222,1.79267
+Bully,10,1,9,10,single failure,No,9,5,60,6,13.664,Success,4,21270124,6.667,1.51822
+Bully,10,1,9,10,single failure,No,8,9,53,5,15.381,Success,5,21270125,5.889,1.709
+Bully,10,2,8,10,multiple failures,No,9,8,55,5,13.755,Success,1,21270131,6.875,1.71938
+Bully,10,2,8,10,multiple failures,No,9,9,54,6,12.601,Success,2,21270132,6.75,1.57513
+Bully,10,2,8,10,multiple failures,No,3,8,54,4,13.935,Success,3,21270133,6.75,1.74188
+Bully,10,2,8,10,multiple failures,No,5,6,60,5,13.473,Success,4,21270134,7.5,1.68413
+Bully,10,2,8,10,multiple failures,No,9,6,61,4,15.26,Success,5,21270135,7.625,1.9075
+Bully,10,1,9,10,coordinator failure,Yes,8,10,58,4,13.777,Success,1,21270141,6.444,1.53078
+Bully,10,1,9,10,coordinator failure,Yes,6,10,66,4,16.193,Success,2,21270142,7.333,1.79922
+Bully,10,1,9,10,coordinator failure,Yes,6,1,55,4,16.182,Success,3,21270143,6.111,1.798
+Bully,10,1,9,10,coordinator failure,Yes,3,4,57,6,12.829,Success,4,21270144,6.333,1.42544
+Bully,10,1,9,10,coordinator failure,Yes,4,1,55,6,12.998,Success,5,21270145,6.111,1.44422
+Ring,10,0,10,10,no failure,No,6,8,29,3,7.907,Success,1,21270211,2.9,0.7907
+Ring,10,0,10,10,no failure,No,9,9,28,1,8.467,Success,2,21270212,2.8,0.8467
+Ring,10,0,10,10,no failure,No,8,9,27,2,7.598,Success,3,21270213,2.7,0.7598
+Ring,10,0,10,10,no failure,No,6,6,24,3,6.201,Success,4,21270214,2.4,0.6201
+Ring,10,0,10,10,no failure,No,8,5,30,2,6.303,Success,5,21270215,3,0.6303
+Ring,10,1,9,10,single failure,No,7,3,30,3,7.507,Success,1,21270221,3.333,0.83411
+Ring,10,1,9,10,single failure,No,2,9,29,2,8.096,Success,2,21270222,3.222,0.89956
+Ring,10,1,9,10,single failure,No,6,6,25,3,5.341,Success,3,21270223,2.778,0.59344
+Ring,10,1,9,10,single failure,No,3,9,27,1,8.24,Success,4,21270224,3,0.91556
+Ring,10,1,9,10,single failure,No,3,6,27,1,8.162,Success,5,21270225,3,0.90689
+Ring,10,2,8,10,multiple failures,No,10,4,29,3,6.343,Success,1,21270231,3.625,0.79287
+Ring,10,2,8,10,multiple failures,No,2,5,29,3,7.27,Success,2,21270232,3.625,0.90875
+Ring,10,2,8,10,multiple failures,No,4,6,23,1,6.271,Success,3,21270233,2.875,0.78387
+Ring,10,2,8,10,multiple failures,No,10,5,22,2,6.788,Success,4,21270234,2.75,0.8485
+Ring,10,2,8,10,multiple failures,No,1,5,23,2,7,Success,5,21270235,2.875,0.875
+Ring,10,1,9,10,coordinator failure,Yes,10,9,26,3,5.565,Success,1,21270241,2.889,0.61833
+Ring,10,1,9,10,coordinator failure,Yes,3,8,27,2,5.344,Success,2,21270242,3,0.59378
+Ring,10,1,9,10,coordinator failure,Yes,4,10,25,3,7.308,Success,3,21270243,2.778,0.812
+Ring,10,1,9,10,coordinator failure,Yes,8,4,27,2,5.71,Success,4,21270244,3,0.63444
+Ring,10,1,9,10,coordinator failure,Yes,8,4,24,1,5.469,Success,5,21270245,2.667,0.60767
+Bully,10,0,10,20,no failure,No,1,5,50,5,12.158,Success,1,21280111,5,1.2158
+Bully,10,0,10,20,no failure,No,2,3,51,4,11.62,Success,2,21280112,5.1,1.162
+Bully,10,0,10,20,no failure,No,8,5,60,5,15.539,Success,3,21280113,6,1.5539
+Bully,10,0,10,20,no failure,No,2,2,52,5,13.838,Success,4,21280114,5.2,1.3838
+Bully,10,0,10,20,no failure,No,8,2,58,4,12.666,Success,5,21280115,5.8,1.2666
+Bully,10,1,9,20,single failure,No,3,5,64,5,13.703,Success,1,21280121,7.111,1.52256
+Bully,10,1,9,20,single failure,No,6,3,60,5,14.948,Success,2,21280122,6.667,1.66089
+Bully,10,1,9,20,single failure,No,4,3,66,6,13.162,Success,3,21280123,7.333,1.46244
+Bully,10,1,9,20,single failure,No,8,2,57,6,13.231,Success,4,21280124,6.333,1.47011
+Bully,10,1,9,20,single failure,No,1,6,65,5,16.697,Success,5,21280125,7.222,1.85522
+Bully,10,2,8,20,multiple failures,No,4,3,69,6,16.569,Success,1,21280131,8.625,2.07112
+Bully,10,2,8,20,multiple failures,No,6,5,65,6,16.334,Success,2,21280132,8.125,2.04175
+Bully,10,2,8,20,multiple failures,No,10,7,54,4,16.084,Success,3,21280133,6.75,2.0105
+Bully,10,2,8,20,multiple failures,No,7,10,55,6,16.11,Success,4,21280134,6.875,2.01375
+Bully,10,2,8,20,multiple failures,No,8,6,60,6,16.977,Success,5,21280135,7.5,2.12213
+Bully,10,1,9,20,coordinator failure,Yes,4,10,61,5,16.087,Success,1,21280141,6.778,1.78744
+Bully,10,1,9,20,coordinator failure,Yes,1,4,54,6,14.776,Success,2,21280142,6,1.64178
+Bully,10,1,9,20,coordinator failure,Yes,8,9,59,6,13.387,Success,3,21280143,6.556,1.48744
+Bully,10,1,9,20,coordinator failure,Yes,4,8,64,6,13.151,Success,4,21280144,7.111,1.46122
+Bully,10,1,9,20,coordinator failure,Yes,9,3,52,6,12.404,Success,5,21280145,5.778,1.37822
+Ring,10,0,10,20,no failure,No,10,9,29,2,6.35,Success,1,21280211,2.9,0.635
+Ring,10,0,10,20,no failure,No,2,2,27,3,8.431,Success,2,21280212,2.7,0.8431
+Ring,10,0,10,20,no failure,No,2,5,29,2,6.952,Success,3,21280213,2.9,0.6952
+Ring,10,0,10,20,no failure,No,2,9,23,3,7.373,Success,4,21280214,2.3,0.7373
+Ring,10,0,10,20,no failure,No,5,2,30,2,7.481,Success,5,21280215,3,0.7481
+Ring,10,1,9,20,single failure,No,5,7,26,3,6.803,Success,1,21280221,2.889,0.75589
+Ring,10,1,9,20,single failure,No,8,8,29,1,5.399,Success,2,21280222,3.222,0.59989
+Ring,10,1,9,20,single failure,No,9,9,24,1,7.38,Success,3,21280223,2.667,0.82
+Ring,10,1,9,20,single failure,No,3,9,26,2,7.327,Success,4,21280224,2.889,0.81411
+Ring,10,1,9,20,single failure,No,2,5,24,3,6.615,Success,5,21280225,2.667,0.735
+Ring,10,2,8,20,multiple failures,No,10,8,26,2,5.884,Success,1,21280231,3.25,0.7355
+Ring,10,2,8,20,multiple failures,No,6,9,25,1,5.094,Success,2,21280232,3.125,0.63675
+Ring,10,2,8,20,multiple failures,No,7,4,25,3,7.315,Success,3,21280233,3.125,0.91438
+Ring,10,2,8,20,multiple failures,No,2,10,23,2,5.051,Success,4,21280234,2.875,0.63138
+Ring,10,2,8,20,multiple failures,No,1,3,30,2,7.695,Success,5,21280235,3.75,0.96188
+Ring,10,1,9,20,coordinator failure,Yes,4,8,26,2,7.183,Success,1,21280241,2.889,0.79811
+Ring,10,1,9,20,coordinator failure,Yes,8,2,30,1,5.623,Success,2,21280242,3.333,0.62478
+Ring,10,1,9,20,coordinator failure,Yes,9,8,27,1,8.237,Success,3,21280243,3,0.91522
+Ring,10,1,9,20,coordinator failure,Yes,1,8,26,3,6.222,Success,4,21280244,2.889,0.69133
+Ring,10,1,9,20,coordinator failure,Yes,4,7,28,1,5.828,Success,5,21280245,3.111,0.64756
+Bully,10,0,10,30,no failure,No,9,10,64,4,15.402,Success,1,21290111,6.4,1.5402
+Bully,10,0,10,30,no failure,No,4,5,57,6,12.999,Success,2,21290112,5.7,1.2999
+Bully,10,0,10,30,no failure,No,5,5,50,6,12.269,Success,3,21290113,5,1.2269
+Bully,10,0,10,30,no failure,No,1,7,58,5,15.089,Success,4,21290114,5.8,1.5089
+Bully,10,0,10,30,no failure,No,1,4,54,5,15.483,Success,5,21290115,5.4,1.5483
+Bully,10,1,9,30,single failure,No,9,8,58,4,13.836,Success,1,21290121,6.444,1.53733
+Bully,10,1,9,30,single failure,No,10,8,60,6,13.521,Success,2,21290122,6.667,1.50233
+Bully,10,1,9,30,single failure,No,2,2,53,5,11.88,Success,3,21290123,5.889,1.32
+Bully,10,1,9,30,single failure,No,9,6,58,4,14.701,Success,4,21290124,6.444,1.63344
+Bully,10,1,9,30,single failure,No,1,7,64,5,15.237,Success,5,21290125,7.111,1.693
+Bully,10,3,7,30,multiple failures,No,7,5,66,5,17.002,Success,1,21290131,9.429,2.42886
+Bully,10,3,7,30,multiple failures,No,2,5,59,5,13.67,Success,2,21290132,8.429,1.95286
+Bully,10,3,7,30,multiple failures,No,1,5,55,6,15.803,Success,3,21290133,7.857,2.25757
+Bully,10,3,7,30,multiple failures,No,4,5,56,6,15.034,Success,4,21290134,8,2.14771
+Bully,10,3,7,30,multiple failures,No,5,6,62,6,13.766,Success,5,21290135,8.857,1.96657
+Bully,10,1,9,30,coordinator failure,Yes,4,9,53,6,11.999,Success,1,21290141,5.889,1.33322
+Bully,10,1,9,30,coordinator failure,Yes,8,4,55,5,14.697,Success,2,21290142,6.111,1.633
+Bully,10,1,9,30,coordinator failure,Yes,7,3,60,6,13.663,Success,3,21290143,6.667,1.51811
+Bully,10,1,9,30,coordinator failure,Yes,9,2,55,6,13.898,Success,4,21290144,6.111,1.54422
+Bully,10,1,9,30,coordinator failure,Yes,5,9,61,4,14.933,Success,5,21290145,6.778,1.65922
+Ring,10,0,10,30,no failure,No,8,1,30,1,7.482,Success,1,21290211,3,0.7482
+Ring,10,0,10,30,no failure,No,1,5,26,3,6.037,Success,2,21290212,2.6,0.6037
+Ring,10,0,10,30,no failure,No,7,6,30,3,7.355,Success,3,21290213,3,0.7355
+Ring,10,0,10,30,no failure,No,3,5,26,2,7.603,Success,4,21290214,2.6,0.7603
+Ring,10,0,10,30,no failure,No,5,7,23,1,5.115,Success,5,21290215,2.3,0.5115
+Ring,10,1,9,30,single failure,No,6,9,25,2,5.994,Success,1,21290221,2.778,0.666
+Ring,10,1,9,30,single failure,No,10,2,29,1,8.47,Success,2,21290222,3.222,0.94111
+Ring,10,1,9,30,single failure,No,4,7,26,1,5.115,Success,3,21290223,2.889,0.56833
+Ring,10,1,9,30,single failure,No,3,6,29,1,8.604,Success,4,21290224,3.222,0.956
+Ring,10,1,9,30,single failure,No,2,4,26,2,7.294,Success,5,21290225,2.889,0.81044
+Ring,10,3,7,30,multiple failures,No,8,9,23,3,7.958,Success,1,21290231,3.286,1.13686
+Ring,10,3,7,30,multiple failures,No,2,7,22,3,6.386,Success,2,21290232,3.143,0.91229
+Ring,10,3,7,30,multiple failures,No,7,10,26,3,6.826,Success,3,21290233,3.714,0.97514
+Ring,10,3,7,30,multiple failures,No,10,8,23,2,6.757,Success,4,21290234,3.286,0.96529
+Ring,10,3,7,30,multiple failures,No,1,5,22,3,6.287,Success,5,21290235,3.143,0.89814
+Ring,10,1,9,30,coordinator failure,Yes,9,1,26,1,7.854,Success,1,21290241,2.889,0.87267
+Ring,10,1,9,30,coordinator failure,Yes,3,7,30,1,6.8,Success,2,21290242,3.333,0.75556
+Ring,10,1,9,30,coordinator failure,Yes,3,7,25,3,5.151,Success,3,21290243,2.778,0.57233
+Ring,10,1,9,30,coordinator failure,Yes,8,7,23,3,5.622,Success,4,21290244,2.556,0.62467
+Ring,10,1,9,30,coordinator failure,Yes,1,10,30,3,6.63,Success,5,21290245,3.333,0.73667
+Bully,10,0,10,40,no failure,No,2,3,58,6,14.235,Success,1,21300111,5.8,1.4235
+Bully,10,0,10,40,no failure,No,8,1,55,5,13.025,Success,2,21300112,5.5,1.3025
+Bully,10,0,10,40,no failure,No,2,7,64,4,15.935,Success,3,21300113,6.4,1.5935
+Bully,10,0,10,40,no failure,No,5,1,53,5,15.467,Success,4,21300114,5.3,1.5467
+Bully,10,0,10,40,no failure,No,4,3,61,6,12.517,Success,5,21300115,6.1,1.2517
+Bully,10,1,9,40,single failure,No,5,5,61,4,15.801,Success,1,21300121,6.778,1.75567
+Bully,10,1,9,40,single failure,No,3,2,67,4,15.652,Success,2,21300122,7.444,1.73911
+Bully,10,1,9,40,single failure,No,8,4,66,5,16.947,Success,3,21300123,7.333,1.883
+Bully,10,1,9,40,single failure,No,3,7,54,6,12.165,Success,4,21300124,6,1.35167
+Bully,10,1,9,40,single failure,No,9,6,63,6,16.021,Success,5,21300125,7,1.78011
+Bully,10,4,6,40,multiple failures,No,10,8,71,6,17.058,Success,1,21300131,11.833,2.843
+Bully,10,4,6,40,multiple failures,No,7,6,63,5,17.074,Success,2,21300132,10.5,2.84567
+Bully,10,4,6,40,multiple failures,No,5,8,59,5,16.735,Success,3,21300133,9.833,2.78917
+Bully,10,4,6,40,multiple failures,No,9,5,68,5,16.39,Success,4,21300134,11.333,2.73167
+Bully,10,4,6,40,multiple failures,No,10,8,63,5,16.821,Success,5,21300135,10.5,2.8035
+Bully,10,1,9,40,coordinator failure,Yes,7,3,58,4,15.216,Success,1,21300141,6.444,1.69067
+Bully,10,1,9,40,coordinator failure,Yes,1,7,61,4,16.523,Success,2,21300142,6.778,1.83589
+Bully,10,1,9,40,coordinator failure,Yes,8,10,67,6,15.164,Success,3,21300143,7.444,1.68489
+Bully,10,1,9,40,coordinator failure,Yes,10,2,57,5,13.264,Success,4,21300144,6.333,1.47378
+Bully,10,1,9,40,coordinator failure,Yes,3,9,63,5,14.649,Success,5,21300145,7,1.62767
+Ring,10,0,10,40,no failure,No,10,8,29,1,5.09,Success,1,21300211,2.9,0.509
+Ring,10,0,10,40,no failure,No,10,3,27,2,6.314,Success,2,21300212,2.7,0.6314
+Ring,10,0,10,40,no failure,No,8,7,30,1,8.492,Success,3,21300213,3,0.8492
+Ring,10,0,10,40,no failure,No,3,4,26,2,8.227,Success,4,21300214,2.6,0.8227
+Ring,10,0,10,40,no failure,No,8,2,27,2,7.734,Success,5,21300215,2.7,0.7734
+Ring,10,1,9,40,single failure,No,10,5,28,2,8.444,Success,1,21300221,3.111,0.93822
+Ring,10,1,9,40,single failure,No,9,2,29,2,6.472,Success,2,21300222,3.222,0.71911
+Ring,10,1,9,40,single failure,No,8,6,28,1,5.252,Success,3,21300223,3.111,0.58356
+Ring,10,1,9,40,single failure,No,9,4,24,2,7.647,Success,4,21300224,2.667,0.84967
+Ring,10,1,9,40,single failure,No,8,6,24,1,7.159,Success,5,21300225,2.667,0.79544
+Ring,10,4,6,40,multiple failures,No,10,5,26,3,5.762,Success,1,21300231,4.333,0.96033
+Ring,10,4,6,40,multiple failures,No,8,6,29,2,8.365,Success,2,21300232,4.833,1.39417
+Ring,10,4,6,40,multiple failures,No,2,8,29,1,7.624,Success,3,21300233,4.833,1.27067
+Ring,10,4,6,40,multiple failures,No,3,5,24,1,6.605,Success,4,21300234,4,1.10083
+Ring,10,4,6,40,multiple failures,No,8,10,22,3,7.067,Success,5,21300235,3.667,1.17783
+Ring,10,1,9,40,coordinator failure,Yes,2,6,25,2,8.121,Success,1,21300241,2.778,0.90233
+Ring,10,1,9,40,coordinator failure,Yes,4,6,29,3,7.023,Success,2,21300242,3.222,0.78033
+Ring,10,1,9,40,coordinator failure,Yes,4,7,24,2,6.385,Success,3,21300243,2.667,0.70944
+Ring,10,1,9,40,coordinator failure,Yes,10,2,25,3,7.492,Success,4,21300244,2.778,0.83244
+Ring,10,1,9,40,coordinator failure,Yes,3,9,26,3,5.987,Success,5,21300245,2.889,0.66522
+Bully,20,0,20,0,no failure,No,6,14,218,6,33.567,Success,1,22260111,10.9,1.67835
+Bully,20,0,20,0,no failure,No,17,6,208,5,33.893,Success,2,22260112,10.4,1.69465
+Bully,20,0,20,0,no failure,No,16,18,207,7,33.775,Success,3,22260113,10.35,1.68875
+Bully,20,0,20,0,no failure,No,2,18,216,5,33.22,Success,4,22260114,10.8,1.661
+Bully,20,0,20,0,no failure,No,12,12,200,6,33.139,Success,5,22260115,10,1.65695
+Bully,20,0,20,0,single failure (no failures at 0%),No,17,19,204,7,31.826,Success,1,22260121,10.2,1.5913
+Bully,20,0,20,0,single failure (no failures at 0%),No,10,6,212,5,33.728,Success,2,22260122,10.6,1.6864
+Bully,20,0,20,0,single failure (no failures at 0%),No,17,10,223,6,36.048,Success,3,22260123,11.15,1.8024
+Bully,20,0,20,0,single failure (no failures at 0%),No,13,16,202,7,31.36,Success,4,22260124,10.1,1.568
+Bully,20,0,20,0,single failure (no failures at 0%),No,4,19,208,6,34.637,Success,5,22260125,10.4,1.73185
+Bully,20,0,20,0,multiple failures (no failures at 0%),No,14,4,208,7,32.775,Success,1,22260131,10.4,1.63875
+Bully,20,0,20,0,multiple failures (no failures at 0%),No,8,5,200,6,33.08,Success,2,22260132,10,1.654
+Bully,20,0,20,0,multiple failures (no failures at 0%),No,16,6,226,5,33.68,Success,3,22260133,11.3,1.684
+Bully,20,0,20,0,multiple failures (no failures at 0%),No,5,1,204,7,31.126,Success,4,22260134,10.2,1.5563
+Bully,20,0,20,0,multiple failures (no failures at 0%),No,15,4,229,7,36.074,Success,5,22260135,11.45,1.8037
+Bully,20,0,20,0,coordinator failure (no failures at 0%),No,17,7,200,6,30.808,Success,1,22260141,10,1.5404
+Bully,20,0,20,0,coordinator failure (no failures at 0%),No,16,14,219,6,35.173,Success,2,22260142,10.95,1.75865
+Bully,20,0,20,0,coordinator failure (no failures at 0%),No,5,8,221,5,33.671,Success,3,22260143,11.05,1.68355
+Bully,20,0,20,0,coordinator failure (no failures at 0%),No,4,5,215,6,32.46,Success,4,22260144,10.75,1.623
+Bully,20,0,20,0,coordinator failure (no failures at 0%),No,15,10,219,7,33.277,Success,5,22260145,10.95,1.66385
+Ring,20,0,20,0,no failure,No,13,12,51,2,11.677,Success,1,22260211,2.55,0.58385
+Ring,20,0,20,0,no failure,No,5,6,51,1,12.104,Success,2,22260212,2.55,0.6052
+Ring,20,0,20,0,no failure,No,7,3,55,2,10.24,Success,3,22260213,2.75,0.512
+Ring,20,0,20,0,no failure,No,17,7,48,2,12.18,Success,4,22260214,2.4,0.609
+Ring,20,0,20,0,no failure,No,20,7,48,1,11.009,Success,5,22260215,2.4,0.55045
+Ring,20,0,20,0,single failure (no failures at 0%),No,2,19,58,1,10.749,Success,1,22260221,2.9,0.53745
+Ring,20,0,20,0,single failure (no failures at 0%),No,3,19,57,1,12.75,Success,2,22260222,2.85,0.6375
+Ring,20,0,20,0,single failure (no failures at 0%),No,7,8,46,3,11.213,Success,3,22260223,2.3,0.56065
+Ring,20,0,20,0,single failure (no failures at 0%),No,17,6,59,3,12.524,Success,4,22260224,2.95,0.6262
+Ring,20,0,20,0,single failure (no failures at 0%),No,13,5,57,1,12.738,Success,5,22260225,2.85,0.6369
+Ring,20,0,20,0,multiple failures (no failures at 0%),No,15,11,54,1,11.385,Success,1,22260231,2.7,0.56925
+Ring,20,0,20,0,multiple failures (no failures at 0%),No,7,16,52,3,12.103,Success,2,22260232,2.6,0.60515
+Ring,20,0,20,0,multiple failures (no failures at 0%),No,9,17,49,1,11.781,Success,3,22260233,2.45,0.58905
+Ring,20,0,20,0,multiple failures (no failures at 0%),No,11,4,52,2,10.995,Success,4,22260234,2.6,0.54975
+Ring,20,0,20,0,multiple failures (no failures at 0%),No,13,9,60,3,11.98,Success,5,22260235,3,0.599
+Ring,20,0,20,0,coordinator failure (no failures at 0%),No,1,19,60,3,11.791,Success,1,22260241,3,0.58955
+Ring,20,0,20,0,coordinator failure (no failures at 0%),No,17,16,55,3,11.233,Success,2,22260242,2.75,0.56165
+Ring,20,0,20,0,coordinator failure (no failures at 0%),No,19,13,52,2,12.127,Success,3,22260243,2.6,0.60635
+Ring,20,0,20,0,coordinator failure (no failures at 0%),No,7,20,47,1,11.676,Success,4,22260244,2.35,0.5838
+Ring,20,0,20,0,coordinator failure (no failures at 0%),No,12,6,53,3,10.809,Success,5,22260245,2.65,0.54045
+Bully,20,0,20,10,no failure,No,13,11,226,7,34.591,Success,1,22270111,11.3,1.72955
+Bully,20,0,20,10,no failure,No,11,9,230,5,33.209,Success,2,22270112,11.5,1.66045
+Bully,20,0,20,10,no failure,No,15,15,210,5,31.405,Success,3,22270113,10.5,1.57025
+Bully,20,0,20,10,no failure,No,12,11,211,7,32.501,Success,4,22270114,10.55,1.62505
+Bully,20,0,20,10,no failure,No,9,14,206,7,34.63,Success,5,22270115,10.3,1.7315
+Bully,20,1,19,10,single failure,No,16,4,231,7,33.287,Success,1,22270121,12.158,1.75195
+Bully,20,1,19,10,single failure,No,4,15,213,6,33.295,Success,2,22270122,11.211,1.75237
+Bully,20,1,19,10,single failure,No,5,7,236,7,36.381,Success,3,22270123,12.421,1.91479
+Bully,20,1,19,10,single failure,No,19,17,208,6,33.135,Success,4,22270124,10.947,1.74395
+Bully,20,1,19,10,single failure,No,12,7,215,5,34.134,Success,5,22270125,11.316,1.79653
+Bully,20,2,18,10,multiple failures,No,11,3,231,5,34.349,Success,1,22270131,12.833,1.90828
+Bully,20,2,18,10,multiple failures,No,19,15,227,7,33.43,Success,2,22270132,12.611,1.85722
+Bully,20,2,18,10,multiple failures,No,8,9,216,6,35.295,Success,3,22270133,12,1.96083
+Bully,20,2,18,10,multiple failures,No,8,7,233,7,35.047,Success,4,22270134,12.944,1.94706
+Bully,20,2,18,10,multiple failures,No,12,10,234,6,37.45,Success,5,22270135,13,2.08056
+Bully,20,1,19,10,coordinator failure,Yes,16,8,221,5,34.218,Success,1,22270141,11.632,1.80095
+Bully,20,1,19,10,coordinator failure,Yes,4,20,211,7,33.723,Success,2,22270142,11.105,1.77489
+Bully,20,1,19,10,coordinator failure,Yes,9,3,207,6,32.048,Success,3,22270143,10.895,1.68674
+Bully,20,1,19,10,coordinator failure,Yes,2,6,213,6,35.083,Success,4,22270144,11.211,1.84647
+Bully,20,1,19,10,coordinator failure,Yes,18,6,237,7,36.205,Success,5,22270145,12.474,1.90553
+Ring,20,0,20,10,no failure,No,18,20,48,1,10.5,Success,1,22270211,2.4,0.525
+Ring,20,0,20,10,no failure,No,19,2,46,2,11.101,Success,2,22270212,2.3,0.55505
+Ring,20,0,20,10,no failure,No,7,10,52,2,12.115,Success,3,22270213,2.6,0.60575
+Ring,20,0,20,10,no failure,No,20,8,52,1,9.529,Success,4,22270214,2.6,0.47645
+Ring,20,0,20,10,no failure,No,19,16,48,2,11.334,Success,5,22270215,2.4,0.5667
+Ring,20,1,19,10,single failure,No,10,5,61,1,11.743,Success,1,22270221,3.211,0.61805
+Ring,20,1,19,10,single failure,No,12,13,60,3,12.913,Success,2,22270222,3.158,0.67963
+Ring,20,1,19,10,single failure,No,13,7,59,1,10.97,Success,3,22270223,3.105,0.57737
+Ring,20,1,19,10,single failure,No,10,7,57,3,12.582,Success,4,22270224,3,0.66221
+Ring,20,1,19,10,single failure,No,1,16,49,2,11.054,Success,5,22270225,2.579,0.58179
+Ring,20,2,18,10,multiple failures,No,9,16,48,1,10.27,Success,1,22270231,2.667,0.57056
+Ring,20,2,18,10,multiple failures,No,15,10,51,2,10.745,Success,2,22270232,2.833,0.59694
+Ring,20,2,18,10,multiple failures,No,13,16,61,2,10.535,Success,3,22270233,3.389,0.58528
+Ring,20,2,18,10,multiple failures,No,8,12,57,1,12.47,Success,4,22270234,3.167,0.69278
+Ring,20,2,18,10,multiple failures,No,5,5,58,3,12.75,Success,5,22270235,3.222,0.70833
+Ring,20,1,19,10,coordinator failure,Yes,6,7,53,3,10.909,Success,1,22270241,2.789,0.57416
+Ring,20,1,19,10,coordinator failure,Yes,17,20,55,1,11.085,Success,2,22270242,2.895,0.58342
+Ring,20,1,19,10,coordinator failure,Yes,10,7,49,2,10.831,Success,3,22270243,2.579,0.57005
+Ring,20,1,19,10,coordinator failure,Yes,11,12,57,3,10.851,Success,4,22270244,3,0.57111
+Ring,20,1,19,10,coordinator failure,Yes,3,9,48,1,11.233,Success,5,22270245,2.526,0.59121
+Bully,20,0,20,20,no failure,No,14,15,222,7,32.762,Success,1,22280111,11.1,1.6381
+Bully,20,0,20,20,no failure,No,9,1,221,7,36.021,Success,2,22280112,11.05,1.80105
+Bully,20,0,20,20,no failure,No,18,4,230,6,35.76,Success,3,22280113,11.5,1.788
+Bully,20,0,20,20,no failure,No,16,18,212,6,35.902,Success,4,22280114,10.6,1.7951
+Bully,20,0,20,20,no failure,No,20,18,201,7,31.703,Success,5,22280115,10.05,1.58515
+Bully,20,1,19,20,single failure,No,13,7,229,7,37.365,Success,1,22280121,12.053,1.96658
+Bully,20,1,19,20,single failure,No,12,18,222,7,37.001,Success,2,22280122,11.684,1.94742
+Bully,20,1,19,20,single failure,No,3,13,234,6,33.771,Success,3,22280123,12.316,1.77742
+Bully,20,1,19,20,single failure,No,10,16,230,7,35.969,Success,4,22280124,12.105,1.89311
+Bully,20,1,19,20,single failure,No,3,12,213,6,33.489,Success,5,22280125,11.211,1.76258
+Bully,20,4,16,20,multiple failures,No,1,16,235,5,35.51,Success,1,22280131,14.688,2.21937
+Bully,20,4,16,20,multiple failures,No,12,15,244,7,38.377,Success,2,22280132,15.25,2.39856
+Bully,20,4,16,20,multiple failures,No,3,5,252,7,35.321,Success,3,22280133,15.75,2.20756
+Bully,20,4,16,20,multiple failures,No,19,13,254,7,37.852,Success,4,22280134,15.875,2.36575
+Bully,20,4,16,20,multiple failures,No,18,16,240,6,36.866,Success,5,22280135,15,2.30412
+Bully,20,1,19,20,coordinator failure,Yes,1,2,215,5,35.026,Success,1,22280141,11.316,1.84347
+Bully,20,1,19,20,coordinator failure,Yes,2,14,217,7,35.37,Success,2,22280142,11.421,1.86158
+Bully,20,1,19,20,coordinator failure,Yes,17,12,214,7,32.07,Success,3,22280143,11.263,1.68789
+Bully,20,1,19,20,coordinator failure,Yes,19,16,219,7,33.557,Success,4,22280144,11.526,1.76616
+Bully,20,1,19,20,coordinator failure,Yes,7,13,229,5,33.351,Success,5,22280145,12.053,1.75532
+Ring,20,0,20,20,no failure,No,4,20,57,1,9.84,Success,1,22280211,2.85,0.492
+Ring,20,0,20,20,no failure,No,20,13,49,3,9.941,Success,2,22280212,2.45,0.49705
+Ring,20,0,20,20,no failure,No,13,16,56,3,11.801,Success,3,22280213,2.8,0.59005
+Ring,20,0,20,20,no failure,No,14,15,52,3,11.486,Success,4,22280214,2.6,0.5743
+Ring,20,0,20,20,no failure,No,7,17,53,2,10.574,Success,5,22280215,2.65,0.5287
+Ring,20,1,19,20,single failure,No,8,14,58,3,10.453,Success,1,22280221,3.053,0.55016
+Ring,20,1,19,20,single failure,No,5,15,46,1,9.909,Success,2,22280222,2.421,0.52153
+Ring,20,1,19,20,single failure,No,12,15,53,3,12.623,Success,3,22280223,2.789,0.66437
+Ring,20,1,19,20,single failure,No,20,15,55,3,13.067,Success,4,22280224,2.895,0.68774
+Ring,20,1,19,20,single failure,No,4,16,58,3,10.909,Success,5,22280225,3.053,0.57416
+Ring,20,4,16,20,multiple failures,No,3,6,60,3,13.578,Success,1,22280231,3.75,0.84862
+Ring,20,4,16,20,multiple failures,No,18,5,49,3,9.927,Success,2,22280232,3.062,0.62044
+Ring,20,4,16,20,multiple failures,No,20,15,54,1,10.269,Success,3,22280233,3.375,0.64181
+Ring,20,4,16,20,multiple failures,No,8,12,50,2,13.471,Success,4,22280234,3.125,0.84194
+Ring,20,4,16,20,multiple failures,No,7,19,49,3,11.104,Success,5,22280235,3.062,0.694
+Ring,20,1,19,20,coordinator failure,Yes,8,18,53,1,10.305,Success,1,22280241,2.789,0.54237
+Ring,20,1,19,20,coordinator failure,Yes,8,18,47,1,9.363,Success,2,22280242,2.474,0.49279
+Ring,20,1,19,20,coordinator failure,Yes,15,8,57,1,12.996,Success,3,22280243,3,0.684
+Ring,20,1,19,20,coordinator failure,Yes,13,15,56,2,11.265,Success,4,22280244,2.947,0.59289
+Ring,20,1,19,20,coordinator failure,Yes,7,4,58,2,12.127,Success,5,22280245,3.053,0.63826
+Bully,20,0,20,30,no failure,No,18,2,204,7,31.885,Success,1,22290111,10.2,1.59425
+Bully,20,0,20,30,no failure,No,11,2,213,5,33.045,Success,2,22290112,10.65,1.65225
+Bully,20,0,20,30,no failure,No,6,8,208,5,31.388,Success,3,22290113,10.4,1.5694
+Bully,20,0,20,30,no failure,No,3,20,229,5,33.34,Success,4,22290114,11.45,1.667
+Bully,20,0,20,30,no failure,No,14,11,229,6,34.68,Success,5,22290115,11.45,1.734
+Bully,20,1,19,30,single failure,No,15,8,220,6,36.396,Success,1,22290121,11.579,1.91558
+Bully,20,1,19,30,single failure,No,2,10,215,7,33.459,Success,2,22290122,11.316,1.761
+Bully,20,1,19,30,single failure,No,11,8,235,5,36.558,Success,3,22290123,12.368,1.92411
+Bully,20,1,19,30,single failure,No,5,12,227,5,36.057,Success,4,22290124,11.947,1.89774
+Bully,20,1,19,30,single failure,No,20,14,226,6,35.791,Success,5,22290125,11.895,1.88374
+Bully,20,6,14,30,multiple failures,No,14,8,242,6,36.627,Success,1,22290131,17.286,2.61621
+Bully,20,6,14,30,multiple failures,No,18,19,242,5,38.867,Success,2,22290132,17.286,2.77621
+Bully,20,6,14,30,multiple failures,No,3,7,240,6,36.611,Success,3,22290133,17.143,2.61507
+Bully,20,6,14,30,multiple failures,No,13,15,271,6,41.814,Success,4,22290134,19.357,2.98671
+Bully,20,6,14,30,multiple failures,No,18,12,268,7,36.654,Success,5,22290135,19.143,2.61814
+Bully,20,1,19,30,coordinator failure,Yes,20,11,232,6,34.004,Success,1,22290141,12.211,1.78968
+Bully,20,1,19,30,coordinator failure,Yes,8,12,212,5,31.86,Success,2,22290142,11.158,1.67684
+Bully,20,1,19,30,coordinator failure,Yes,18,10,237,7,34.28,Success,3,22290143,12.474,1.80421
+Bully,20,1,19,30,coordinator failure,Yes,12,20,217,5,35.657,Success,4,22290144,11.421,1.87668
+Bully,20,1,19,30,coordinator failure,Yes,16,3,227,6,36.266,Success,5,22290145,11.947,1.90874
+Ring,20,0,20,30,no failure,No,3,11,54,1,11.421,Success,1,22290211,2.7,0.57105
+Ring,20,0,20,30,no failure,No,11,13,46,2,10.417,Success,2,22290212,2.3,0.52085
+Ring,20,0,20,30,no failure,No,17,3,49,2,11.994,Success,3,22290213,2.45,0.5997
+Ring,20,0,20,30,no failure,No,20,3,60,3,13.081,Success,4,22290214,3,0.65405
+Ring,20,0,20,30,no failure,No,18,3,60,1,12.29,Success,5,22290215,3,0.6145
+Ring,20,1,19,30,single failure,No,13,7,46,2,11.639,Success,1,22290221,2.421,0.61258
+Ring,20,1,19,30,single failure,No,18,19,52,2,10.174,Success,2,22290222,2.737,0.53547
+Ring,20,1,19,30,single failure,No,14,3,46,1,9.756,Success,3,22290223,2.421,0.51347
+Ring,20,1,19,30,single failure,No,1,19,61,2,11.161,Success,4,22290224,3.211,0.58742
+Ring,20,1,19,30,single failure,No,18,8,53,1,12.763,Success,5,22290225,2.789,0.67174
+Ring,20,6,14,30,multiple failures,No,7,18,60,3,13.708,Success,1,22290231,4.286,0.97914
+Ring,20,6,14,30,multiple failures,No,18,10,55,3,10.79,Success,2,22290232,3.929,0.77071
+Ring,20,6,14,30,multiple failures,No,9,16,64,1,12.776,Success,3,22290233,4.571,0.91257
+Ring,20,6,14,30,multiple failures,No,10,14,64,2,14.343,Success,4,22290234,4.571,1.0245
+Ring,20,6,14,30,multiple failures,No,15,14,58,2,12.905,Success,5,22290235,4.143,0.92179
+Ring,20,1,19,30,coordinator failure,Yes,4,13,46,1,9.555,Success,1,22290241,2.421,0.50289
+Ring,20,1,19,30,coordinator failure,Yes,8,10,53,3,9.529,Success,2,22290242,2.789,0.50153
+Ring,20,1,19,30,coordinator failure,Yes,18,10,47,2,12.043,Success,3,22290243,2.474,0.63384
+Ring,20,1,19,30,coordinator failure,Yes,1,12,57,2,12.615,Success,4,22290244,3,0.66395
+Ring,20,1,19,30,coordinator failure,Yes,6,4,60,1,12.885,Success,5,22290245,3.158,0.67816
+Bully,20,0,20,40,no failure,No,4,19,208,7,32.94,Success,1,22300111,10.4,1.647
+Bully,20,0,20,40,no failure,No,16,5,215,5,35.271,Success,2,22300112,10.75,1.76355
+Bully,20,0,20,40,no failure,No,15,5,208,7,32.959,Success,3,22300113,10.4,1.64795
+Bully,20,0,20,40,no failure,No,8,6,202,5,32.955,Success,4,22300114,10.1,1.64775
+Bully,20,0,20,40,no failure,No,12,1,206,6,33.991,Success,5,22300115,10.3,1.69955
+Bully,20,1,19,40,single failure,No,16,4,213,5,35.569,Success,1,22300121,11.211,1.87205
+Bully,20,1,19,40,single failure,No,15,14,209,6,31.538,Success,2,22300122,11,1.65989
+Bully,20,1,19,40,single failure,No,19,13,216,7,34.463,Success,3,22300123,11.368,1.81384
+Bully,20,1,19,40,single failure,No,14,11,225,7,36.471,Success,4,22300124,11.842,1.91953
+Bully,20,1,19,40,single failure,No,7,8,236,5,34.618,Success,5,22300125,12.421,1.822
+Bully,20,8,12,40,multiple failures,No,5,13,278,5,41.278,Success,1,22300131,23.167,3.43983
+Bully,20,8,12,40,multiple failures,No,20,9,274,6,40.356,Success,2,22300132,22.833,3.363
+Bully,20,8,12,40,multiple failures,No,5,12,274,6,41.28,Success,3,22300133,22.833,3.44
+Bully,20,8,12,40,multiple failures,No,6,13,248,7,38.911,Success,4,22300134,20.667,3.24258
+Bully,20,8,12,40,multiple failures,No,3,17,252,7,36.787,Success,5,22300135,21,3.06558
+Bully,20,1,19,40,coordinator failure,Yes,5,9,217,7,33.622,Success,1,22300141,11.421,1.76958
+Bully,20,1,19,40,coordinator failure,Yes,8,14,235,6,33.92,Success,2,22300142,12.368,1.78526
+Bully,20,1,19,40,coordinator failure,Yes,6,7,211,7,32.943,Success,3,22300143,11.105,1.73384
+Bully,20,1,19,40,coordinator failure,Yes,19,9,219,6,32.901,Success,4,22300144,11.526,1.73163
+Bully,20,1,19,40,coordinator failure,Yes,5,2,236,5,34.536,Success,5,22300145,12.421,1.81768
+Ring,20,0,20,40,no failure,No,18,8,58,1,12.503,Success,1,22300211,2.9,0.62515
+Ring,20,0,20,40,no failure,No,2,2,51,1,11.856,Success,2,22300212,2.55,0.5928
+Ring,20,0,20,40,no failure,No,7,1,57,3,12.683,Success,3,22300213,2.85,0.63415
+Ring,20,0,20,40,no failure,No,13,4,50,2,11.833,Success,4,22300214,2.5,0.59165
+Ring,20,0,20,40,no failure,No,9,9,48,2,12.418,Success,5,22300215,2.4,0.6209
+Ring,20,1,19,40,single failure,No,19,9,59,2,12.469,Success,1,22300221,3.105,0.65626
+Ring,20,1,19,40,single failure,No,16,10,56,2,12.105,Success,2,22300222,2.947,0.63711
+Ring,20,1,19,40,single failure,No,11,11,55,1,10.762,Success,3,22300223,2.895,0.56642
+Ring,20,1,19,40,single failure,No,3,18,59,1,10.015,Success,4,22300224,3.105,0.52711
+Ring,20,1,19,40,single failure,No,11,20,47,3,10.61,Success,5,22300225,2.474,0.55842
+Ring,20,8,12,40,multiple failures,No,9,13,55,1,12.046,Success,1,22300231,4.583,1.00383
+Ring,20,8,12,40,multiple failures,No,3,9,52,1,12.184,Success,2,22300232,4.333,1.01533
+Ring,20,8,12,40,multiple failures,No,12,13,64,3,13.749,Success,3,22300233,5.333,1.14575
+Ring,20,8,12,40,multiple failures,No,1,19,62,2,11.801,Success,4,22300234,5.167,0.98342
+Ring,20,8,12,40,multiple failures,No,7,9,48,3,11.861,Success,5,22300235,4,0.98842
+Ring,20,1,19,40,coordinator failure,Yes,9,2,59,2,11.259,Success,1,22300241,3.105,0.59258
+Ring,20,1,19,40,coordinator failure,Yes,4,9,53,1,10.007,Success,2,22300242,2.789,0.52668
+Ring,20,1,19,40,coordinator failure,Yes,16,11,50,3,11.429,Success,3,22300243,2.632,0.60153
+Ring,20,1,19,40,coordinator failure,Yes,10,11,49,3,10.342,Success,4,22300244,2.579,0.54432
+Ring,20,1,19,40,coordinator failure,Yes,11,5,47,1,11.739,Success,5,22300245,2.474,0.61784
+Bully,50,0,50,0,no failure,No,31,32,1321,6,142.818,Success,1,25260111,26.42,2.85636
+Bully,50,0,50,0,no failure,No,27,37,1280,7,140.042,Success,2,25260112,25.6,2.80084
+Bully,50,0,50,0,no failure,No,13,29,1274,7,140.839,Success,3,25260113,25.48,2.81678
+Bully,50,0,50,0,no failure,No,31,42,1282,8,138.245,Success,4,25260114,25.64,2.7649
+Bully,50,0,50,0,no failure,No,21,32,1285,8,141.302,Success,5,25260115,25.7,2.82604
+Bully,50,0,50,0,single failure (no failures at 0%),No,8,15,1318,8,144.975,Success,1,25260121,26.36,2.8995
+Bully,50,0,50,0,single failure (no failures at 0%),No,11,12,1325,8,145.567,Success,2,25260122,26.5,2.91134
+Bully,50,0,50,0,single failure (no failures at 0%),No,26,15,1287,7,142.919,Success,3,25260123,25.74,2.85838
+Bully,50,0,50,0,single failure (no failures at 0%),No,17,49,1271,6,139.146,Success,4,25260124,25.42,2.78292
+Bully,50,0,50,0,single failure (no failures at 0%),No,18,2,1301,7,142.659,Success,5,25260125,26.02,2.85318
+Bully,50,0,50,0,multiple failures (no failures at 0%),No,45,50,1307,6,144.069,Success,1,25260131,26.14,2.88138
+Bully,50,0,50,0,multiple failures (no failures at 0%),No,5,34,1320,7,144.314,Success,2,25260132,26.4,2.88628
+Bully,50,0,50,0,multiple failures (no failures at 0%),No,11,31,1282,8,141.885,Success,3,25260133,25.64,2.8377
+Bully,50,0,50,0,multiple failures (no failures at 0%),No,2,11,1258,6,136.92,Success,4,25260134,25.16,2.7384
+Bully,50,0,50,0,multiple failures (no failures at 0%),No,4,19,1286,8,142.335,Success,5,25260135,25.72,2.8467
+Bully,50,0,50,0,coordinator failure (no failures at 0%),No,7,40,1257,6,136.849,Success,1,25260141,25.14,2.73698
+Bully,50,0,50,0,coordinator failure (no failures at 0%),No,26,15,1251,7,136.694,Success,2,25260142,25.02,2.73388
+Bully,50,0,50,0,coordinator failure (no failures at 0%),No,15,7,1282,6,138.129,Success,3,25260143,25.64,2.76258
+Bully,50,0,50,0,coordinator failure (no failures at 0%),No,8,43,1306,6,140.274,Success,4,25260144,26.12,2.80548
+Bully,50,0,50,0,coordinator failure (no failures at 0%),No,6,1,1318,6,142.991,Success,5,25260145,26.36,2.85982
+Ring,50,0,50,0,no failure,No,13,13,142,2,23.576,Success,1,25260211,2.84,0.47152
+Ring,50,0,50,0,no failure,No,24,19,117,2,22.379,Success,2,25260212,2.34,0.44758
+Ring,50,0,50,0,no failure,No,10,11,128,1,24.749,Success,3,25260213,2.56,0.49498
+Ring,50,0,50,0,no failure,No,44,40,130,3,24.215,Success,4,25260214,2.6,0.4843
+Ring,50,0,50,0,no failure,No,49,14,130,2,24.704,Success,5,25260215,2.6,0.49408
+Ring,50,0,50,0,single failure (no failures at 0%),No,13,30,141,2,24.942,Success,1,25260221,2.82,0.49884
+Ring,50,0,50,0,single failure (no failures at 0%),No,45,18,136,1,23.357,Success,2,25260222,2.72,0.46714
+Ring,50,0,50,0,single failure (no failures at 0%),No,18,7,150,3,25.356,Success,3,25260223,3,0.50712
+Ring,50,0,50,0,single failure (no failures at 0%),No,48,21,132,1,23.756,Success,4,25260224,2.64,0.47512
+Ring,50,0,50,0,single failure (no failures at 0%),No,49,10,140,3,25.859,Success,5,25260225,2.8,0.51718
+Ring,50,0,50,0,multiple failures (no failures at 0%),No,24,19,143,2,24.759,Success,1,25260231,2.86,0.49518
+Ring,50,0,50,0,multiple failures (no failures at 0%),No,14,41,150,1,26.295,Success,2,25260232,3,0.5259
+Ring,50,0,50,0,multiple failures (no failures at 0%),No,25,4,146,1,24.124,Success,3,25260233,2.92,0.48248
+Ring,50,0,50,0,multiple failures (no failures at 0%),No,47,15,128,2,24.295,Success,4,25260234,2.56,0.4859
+Ring,50,0,50,0,multiple failures (no failures at 0%),No,10,27,137,2,25.622,Success,5,25260235,2.74,0.51244
+Ring,50,0,50,0,coordinator failure (no failures at 0%),No,7,3,120,2,23.252,Success,1,25260241,2.4,0.46504
+Ring,50,0,50,0,coordinator failure (no failures at 0%),No,42,37,141,3,23.073,Success,2,25260242,2.82,0.46146
+Ring,50,0,50,0,coordinator failure (no failures at 0%),No,41,45,123,1,23.287,Success,3,25260243,2.46,0.46574
+Ring,50,0,50,0,coordinator failure (no failures at 0%),No,28,23,125,1,23.547,Success,4,25260244,2.5,0.47094
+Ring,50,0,50,0,coordinator failure (no failures at 0%),No,30,2,123,1,24.084,Success,5,25260245,2.46,0.48168
+Bully,50,0,50,10,no failure,No,46,5,1281,7,139.025,Success,1,25270111,25.62,2.7805
+Bully,50,0,50,10,no failure,No,43,17,1252,7,136.922,Success,2,25270112,25.04,2.73844
+Bully,50,0,50,10,no failure,No,20,46,1318,6,142.322,Success,3,25270113,26.36,2.84644
+Bully,50,0,50,10,no failure,No,46,3,1313,8,144.913,Success,4,25270114,26.26,2.89826
+Bully,50,0,50,10,no failure,No,23,8,1260,7,138.26,Success,5,25270115,25.2,2.7652
+Bully,50,1,49,10,single failure,No,22,22,1354,8,147.381,Success,1,25270121,27.633,3.00778
+Bully,50,1,49,10,single failure,No,30,23,1312,6,142.592,Success,2,25270122,26.776,2.91004
+Bully,50,1,49,10,single failure,No,48,4,1339,6,143.173,Success,3,25270123,27.327,2.9219
+Bully,50,1,49,10,single failure,No,19,48,1298,7,139.425,Success,4,25270124,26.49,2.84541
+Bully,50,1,49,10,single failure,No,39,43,1329,6,142.588,Success,5,25270125,27.122,2.90996
+Bully,50,5,45,10,multiple failures,No,19,45,1450,6,154.24,Success,1,25270131,32.222,3.42756
+Bully,50,5,45,10,multiple failures,No,33,46,1469,6,151.621,Success,2,25270132,32.644,3.36936
+Bully,50,5,45,10,multiple failures,No,30,46,1496,6,153.79,Success,3,25270133,33.244,3.41756
+Bully,50,5,45,10,multiple failures,No,47,37,1523,8,160.405,Success,4,25270134,33.844,3.56456
+Bully,50,5,45,10,multiple failures,No,1,36,1463,8,152.349,Success,5,25270135,32.511,3.38553
+Bully,50,1,49,10,coordinator failure,Yes,2,4,1291,6,141.144,Success,1,25270141,26.347,2.88049
+Bully,50,1,49,10,coordinator failure,Yes,49,13,1363,7,145.08,Success,2,25270142,27.816,2.96082
+Bully,50,1,49,10,coordinator failure,Yes,14,39,1352,8,144.524,Success,3,25270143,27.592,2.94947
+Bully,50,1,49,10,coordinator failure,Yes,43,50,1346,8,144.31,Success,4,25270144,27.469,2.9451
+Bully,50,1,49,10,coordinator failure,Yes,8,14,1317,7,142.856,Success,5,25270145,26.878,2.91543
+Ring,50,0,50,10,no failure,No,47,32,136,1,24.572,Success,1,25270211,2.72,0.49144
+Ring,50,0,50,10,no failure,No,12,14,117,3,22.363,Success,2,25270212,2.34,0.44726
+Ring,50,0,50,10,no failure,No,8,45,120,2,23.344,Success,3,25270213,2.4,0.46688
+Ring,50,0,50,10,no failure,No,46,8,118,3,24.334,Success,4,25270214,2.36,0.48668
+Ring,50,0,50,10,no failure,No,33,27,139,1,25.643,Success,5,25270215,2.78,0.51286
+Ring,50,1,49,10,single failure,No,44,32,132,3,23.019,Success,1,25270221,2.694,0.46978
+Ring,50,1,49,10,single failure,No,20,27,152,2,25.741,Success,2,25270222,3.102,0.52533
+Ring,50,1,49,10,single failure,No,8,20,121,3,23.83,Success,3,25270223,2.469,0.48633
+Ring,50,1,49,10,single failure,No,10,3,123,2,25.634,Success,4,25270224,2.51,0.52314
+Ring,50,1,49,10,single failure,No,6,13,153,1,23.724,Success,5,25270225,3.122,0.48416
+Ring,50,5,45,10,multiple failures,No,46,34,164,1,28.773,Success,1,25270231,3.644,0.6394
+Ring,50,5,45,10,multiple failures,No,43,36,146,2,28.124,Success,2,25270232,3.244,0.62498
+Ring,50,5,45,10,multiple failures,No,43,34,129,3,27.845,Success,3,25270233,2.867,0.61878
+Ring,50,5,45,10,multiple failures,No,37,39,160,1,28.177,Success,4,25270234,3.556,0.62616
+Ring,50,5,45,10,multiple failures,No,2,46,156,2,28.633,Success,5,25270235,3.467,0.63629
+Ring,50,1,49,10,coordinator failure,Yes,50,40,153,1,24.639,Success,1,25270241,3.122,0.50284
+Ring,50,1,49,10,coordinator failure,Yes,33,17,153,1,23.7,Success,2,25270242,3.122,0.48367
+Ring,50,1,49,10,coordinator failure,Yes,27,8,123,3,25.276,Success,3,25270243,2.51,0.51584
+Ring,50,1,49,10,coordinator failure,Yes,35,24,122,1,22.989,Success,4,25270244,2.49,0.46916
+Ring,50,1,49,10,coordinator failure,Yes,30,20,127,1,25.77,Success,5,25270245,2.592,0.52592
+Bully,50,0,50,20,no failure,No,15,43,1266,6,141.035,Success,1,25280111,25.32,2.8207
+Bully,50,0,50,20,no failure,No,28,25,1314,6,144.731,Success,2,25280112,26.28,2.89462
+Bully,50,0,50,20,no failure,No,13,10,1273,7,141.344,Success,3,25280113,25.46,2.82688
+Bully,50,0,50,20,no failure,No,39,22,1313,8,143.507,Success,4,25280114,26.26,2.87014
+Bully,50,0,50,20,no failure,No,5,28,1271,6,140.21,Success,5,25280115,25.42,2.8042
+Bully,50,1,49,20,single failure,No,42,45,1323,7,143.74,Success,1,25280121,27,2.93347
+Bully,50,1,49,20,single failure,No,36,32,1355,6,146.178,Success,2,25280122,27.653,2.98322
+Bully,50,1,49,20,single failure,No,26,41,1330,8,144.196,Success,3,25280123,27.143,2.94278
+Bully,50,1,49,20,single failure,No,48,19,1351,7,146.672,Success,4,25280124,27.571,2.99331
+Bully,50,1,49,20,single failure,No,47,36,1364,6,145.588,Success,5,25280125,27.837,2.97118
+Bully,50,10,40,20,multiple failures,No,27,50,1686,8,171.736,Success,1,25280131,42.15,4.2934
+Bully,50,10,40,20,multiple failures,No,20,36,1694,6,170.83,Success,2,25280132,42.35,4.27075
+Bully,50,10,40,20,multiple failures,No,20,44,1702,6,170.985,Success,3,25280133,42.55,4.27463
+Bully,50,10,40,20,multiple failures,No,38,43,1717,8,171.622,Success,4,25280134,42.925,4.29055
+Bully,50,10,40,20,multiple failures,No,21,31,1693,6,172.516,Success,5,25280135,42.325,4.3129
+Bully,50,1,49,20,coordinator failure,Yes,48,18,1329,8,143.721,Success,1,25280141,27.122,2.93308
+Bully,50,1,49,20,coordinator failure,Yes,45,27,1342,8,144.593,Success,2,25280142,27.388,2.95088
+Bully,50,1,49,20,coordinator failure,Yes,31,24,1292,7,139.17,Success,3,25280143,26.367,2.8402
+Bully,50,1,49,20,coordinator failure,Yes,24,22,1352,6,144.817,Success,4,25280144,27.592,2.95545
+Bully,50,1,49,20,coordinator failure,Yes,25,36,1306,6,143.152,Success,5,25280145,26.653,2.92147
+Ring,50,0,50,20,no failure,No,19,43,119,3,24.684,Success,1,25280211,2.38,0.49368
+Ring,50,0,50,20,no failure,No,10,32,149,3,23.933,Success,2,25280212,2.98,0.47866
+Ring,50,0,50,20,no failure,No,34,33,120,3,22.951,Success,3,25280213,2.4,0.45902
+Ring,50,0,50,20,no failure,No,12,26,116,1,23.034,Success,4,25280214,2.32,0.46068
+Ring,50,0,50,20,no failure,No,25,29,127,3,24.854,Success,5,25280215,2.54,0.49708
+Ring,50,1,49,20,single failure,No,12,14,151,3,27.007,Success,1,25280221,3.082,0.55116
+Ring,50,1,49,20,single failure,No,22,11,152,1,24.422,Success,2,25280222,3.102,0.49841
+Ring,50,1,49,20,single failure,No,29,42,150,2,27.124,Success,3,25280223,3.061,0.55355
+Ring,50,1,49,20,single failure,No,41,2,144,2,25.321,Success,4,25280224,2.939,0.51676
+Ring,50,1,49,20,single failure,No,10,5,129,3,25.135,Success,5,25280225,2.633,0.51296
+Ring,50,10,40,20,multiple failures,No,25,28,173,1,29.266,Success,1,25280231,4.325,0.73165
+Ring,50,10,40,20,multiple failures,No,27,31,169,3,29.995,Success,2,25280232,4.225,0.74988
+Ring,50,10,40,20,multiple failures,No,11,40,152,2,29.852,Success,3,25280233,3.8,0.7463
+Ring,50,10,40,20,multiple failures,No,24,47,173,1,29.692,Success,4,25280234,4.325,0.7423
+Ring,50,10,40,20,multiple failures,No,4,27,174,2,29.526,Success,5,25280235,4.35,0.73815
+Ring,50,1,49,20,coordinator failure,Yes,5,24,126,1,24.153,Success,1,25280241,2.571,0.49292
+Ring,50,1,49,20,coordinator failure,Yes,29,42,135,2,25.239,Success,2,25280242,2.755,0.51508
+Ring,50,1,49,20,coordinator failure,Yes,14,17,143,1,26.567,Success,3,25280243,2.918,0.54218
+Ring,50,1,49,20,coordinator failure,Yes,19,45,119,3,23.763,Success,4,25280244,2.429,0.48496
+Ring,50,1,49,20,coordinator failure,Yes,37,30,137,2,24.6,Success,5,25280245,2.796,0.50204
+Bully,50,0,50,30,no failure,No,47,11,1294,6,139.938,Success,1,25290111,25.88,2.79876
+Bully,50,0,50,30,no failure,No,40,27,1287,7,139.605,Success,2,25290112,25.74,2.7921
+Bully,50,0,50,30,no failure,No,37,31,1314,8,142.254,Success,3,25290113,26.28,2.84508
+Bully,50,0,50,30,no failure,No,31,34,1304,8,143.775,Success,4,25290114,26.08,2.8755
+Bully,50,0,50,30,no failure,No,30,30,1288,6,140.252,Success,5,25290115,25.76,2.80504
+Bully,50,1,49,30,single failure,No,6,6,1310,8,140.549,Success,1,25290121,26.735,2.86835
+Bully,50,1,49,30,single failure,No,42,30,1310,7,140.572,Success,2,25290122,26.735,2.86882
+Bully,50,1,49,30,single failure,No,16,2,1289,8,141.53,Success,3,25290123,26.306,2.88837
+Bully,50,1,49,30,single failure,No,20,7,1348,7,144.974,Success,4,25290124,27.51,2.95865
+Bully,50,1,49,30,single failure,No,13,41,1339,8,143.961,Success,5,25290125,27.327,2.93798
+Bully,50,15,35,30,multiple failures,No,39,23,1869,6,182.719,Success,1,25290131,53.4,5.22054
+Bully,50,15,35,30,multiple failures,No,4,18,1828,7,177.853,Success,2,25290132,52.229,5.08151
+Bully,50,15,35,30,multiple failures,No,10,48,1869,6,181.526,Success,3,25290133,53.4,5.18646
+Bully,50,15,35,30,multiple failures,No,10,45,1882,7,182.559,Success,4,25290134,53.771,5.21597
+Bully,50,15,35,30,multiple failures,No,18,29,1863,6,180.641,Success,5,25290135,53.229,5.16117
+Bully,50,1,49,30,coordinator failure,Yes,36,49,1329,7,142.887,Success,1,25290141,27.122,2.91606
+Bully,50,1,49,30,coordinator failure,Yes,8,50,1315,8,140.957,Success,2,25290142,26.837,2.87667
+Bully,50,1,49,30,coordinator failure,Yes,37,50,1361,8,148.038,Success,3,25290143,27.776,3.02118
+Bully,50,1,49,30,coordinator failure,Yes,50,43,1325,6,142.556,Success,4,25290144,27.041,2.90931
+Bully,50,1,49,30,coordinator failure,Yes,15,47,1360,7,147.524,Success,5,25290145,27.755,3.01069
+Ring,50,0,50,30,no failure,No,22,24,130,1,23.867,Success,1,25290211,2.6,0.47734
+Ring,50,0,50,30,no failure,No,45,45,123,1,25.033,Success,2,25290212,2.46,0.50066
+Ring,50,0,50,30,no failure,No,47,11,136,3,25.403,Success,3,25290213,2.72,0.50806
+Ring,50,0,50,30,no failure,No,27,3,143,1,25.79,Success,4,25290214,2.86,0.5158
+Ring,50,0,50,30,no failure,No,16,23,138,2,25.384,Success,5,25290215,2.76,0.50768
+Ring,50,1,49,30,single failure,No,32,39,122,2,23.939,Success,1,25290221,2.49,0.48855
+Ring,50,1,49,30,single failure,No,47,48,129,3,23.169,Success,2,25290222,2.633,0.47284
+Ring,50,1,49,30,single failure,No,41,6,129,1,24.939,Success,3,25290223,2.633,0.50896
+Ring,50,1,49,30,single failure,No,13,50,136,1,24.143,Success,4,25290224,2.776,0.49271
+Ring,50,1,49,30,single failure,No,41,4,146,3,24.425,Success,5,25290225,2.98,0.49847
+Ring,50,15,35,30,multiple failures,No,42,17,184,1,33.626,Success,1,25290231,5.257,0.96074
+Ring,50,15,35,30,multiple failures,No,40,35,188,1,30.299,Success,2,25290232,5.371,0.86569
+Ring,50,15,35,30,multiple failures,No,37,19,152,1,28.511,Success,3,25290233,4.343,0.8146
+Ring,50,15,35,30,multiple failures,No,23,50,161,3,29.595,Success,4,25290234,4.6,0.84557
+Ring,50,15,35,30,multiple failures,No,44,34,188,1,30.078,Success,5,25290235,5.371,0.85937
+Ring,50,1,49,30,coordinator failure,Yes,16,10,133,2,26.344,Success,1,25290241,2.714,0.53763
+Ring,50,1,49,30,coordinator failure,Yes,29,11,151,2,24.115,Success,2,25290242,3.082,0.49214
+Ring,50,1,49,30,coordinator failure,Yes,23,18,148,2,25.103,Success,3,25290243,3.02,0.51231
+Ring,50,1,49,30,coordinator failure,Yes,39,20,124,3,25.151,Success,4,25290244,2.531,0.51329
+Ring,50,1,49,30,coordinator failure,Yes,33,44,144,3,26.785,Success,5,25290245,2.939,0.54663
+Bully,50,0,50,40,no failure,No,10,19,1297,6,143.394,Success,1,25300111,25.94,2.86788
+Bully,50,0,50,40,no failure,No,44,34,1275,8,141.559,Success,2,25300112,25.5,2.83118
+Bully,50,0,50,40,no failure,No,33,37,1261,8,138.072,Success,3,25300113,25.22,2.76144
+Bully,50,0,50,40,no failure,No,14,28,1281,6,138.786,Success,4,25300114,25.62,2.77572
+Bully,50,0,50,40,no failure,No,19,19,1274,7,139.908,Success,5,25300115,25.48,2.79816
+Bully,50,1,49,40,single failure,No,20,47,1319,8,145.112,Success,1,25300121,26.918,2.96147
+Bully,50,1,49,40,single failure,No,38,19,1311,8,144.648,Success,2,25300122,26.755,2.952
+Bully,50,1,49,40,single failure,No,48,27,1351,8,145.371,Success,3,25300123,27.571,2.96676
+Bully,50,1,49,40,single failure,No,34,49,1303,6,141.884,Success,4,25300124,26.592,2.89559
+Bully,50,1,49,40,single failure,No,9,30,1344,6,144.767,Success,5,25300125,27.429,2.95443
+Bully,50,20,30,40,multiple failures,No,46,43,2090,6,197.617,Success,1,25300131,69.667,6.58723
+Bully,50,20,30,40,multiple failures,No,33,29,2110,8,203.711,Success,2,25300132,70.333,6.79037
+Bully,50,20,30,40,multiple failures,No,45,23,2013,7,191.95,Success,3,25300133,67.1,6.39833
+Bully,50,20,30,40,multiple failures,No,22,28,2003,8,192.995,Success,4,25300134,66.767,6.43317
+Bully,50,20,30,40,multiple failures,No,18,39,2035,8,195.656,Success,5,25300135,67.833,6.52187
+Bully,50,1,49,40,coordinator failure,Yes,34,17,1364,7,146.954,Success,1,25300141,27.837,2.99906
+Bully,50,1,49,40,coordinator failure,Yes,15,7,1294,8,142.48,Success,2,25300142,26.408,2.90776
+Bully,50,1,49,40,coordinator failure,Yes,27,6,1357,6,144.209,Success,3,25300143,27.694,2.94304
+Bully,50,1,49,40,coordinator failure,Yes,14,39,1357,8,147.954,Success,4,25300144,27.694,3.01947
+Bully,50,1,49,40,coordinator failure,Yes,17,23,1301,6,142.472,Success,5,25300145,26.551,2.90759
+Ring,50,0,50,40,no failure,No,47,12,140,3,24.855,Success,1,25300211,2.8,0.4971
+Ring,50,0,50,40,no failure,No,30,23,150,3,26.329,Success,2,25300212,3,0.52658
+Ring,50,0,50,40,no failure,No,2,2,150,2,23.588,Success,3,25300213,3,0.47176
+Ring,50,0,50,40,no failure,No,23,5,140,3,23.833,Success,4,25300214,2.8,0.47666
+Ring,50,0,50,40,no failure,No,12,17,120,2,24.639,Success,5,25300215,2.4,0.49278
+Ring,50,1,49,40,single failure,No,12,50,152,3,24.464,Success,1,25300221,3.102,0.49927
+Ring,50,1,49,40,single failure,No,14,40,151,1,26.306,Success,2,25300222,3.082,0.53686
+Ring,50,1,49,40,single failure,No,27,28,119,2,25.75,Success,3,25300223,2.429,0.52551
+Ring,50,1,49,40,single failure,No,48,37,119,1,22.839,Success,4,25300224,2.429,0.4661
+Ring,50,1,49,40,single failure,No,9,26,133,1,25.463,Success,5,25300225,2.714,0.51965
+Ring,50,20,30,40,multiple failures,No,36,40,165,1,33.374,Success,1,25300231,5.5,1.11247
+Ring,50,20,30,40,multiple failures,No,13,29,197,1,32.147,Success,2,25300232,6.567,1.07157
+Ring,50,20,30,40,multiple failures,No,24,22,192,1,34.313,Success,3,25300233,6.4,1.14377
+Ring,50,20,30,40,multiple failures,No,13,28,205,2,33.251,Success,4,25300234,6.833,1.10837
+Ring,50,20,30,40,multiple failures,No,30,28,178,2,34.774,Success,5,25300235,5.933,1.15913
+Ring,50,1,49,40,coordinator failure,Yes,33,13,152,1,26.902,Success,1,25300241,3.102,0.54902
+Ring,50,1,49,40,coordinator failure,Yes,34,46,125,3,23.924,Success,2,25300242,2.551,0.48824
+Ring,50,1,49,40,coordinator failure,Yes,22,32,139,2,25.621,Success,3,25300243,2.837,0.52288
+Ring,50,1,49,40,coordinator failure,Yes,47,46,141,2,25.072,Success,4,25300244,2.878,0.51167
+Ring,50,1,49,40,coordinator failure,Yes,40,35,134,1,25.373,Success,5,25300245,2.735,0.51782
+Bully,100,0,100,0,no failure,No,52,41,5124,9,480.999,Success,1,30260111,51.24,4.80999
+Bully,100,0,100,0,no failure,No,74,20,5033,7,475.993,Success,2,30260112,50.33,4.75993
+Bully,100,0,100,0,no failure,No,8,96,5001,7,472.375,Success,3,30260113,50.01,4.72375
+Bully,100,0,100,0,no failure,No,36,60,5136,8,481.707,Success,4,30260114,51.36,4.81707
+Bully,100,0,100,0,no failure,No,63,50,5103,8,481.195,Success,5,30260115,51.03,4.81195
+Bully,100,0,100,0,single failure (no failures at 0%),No,12,6,5088,7,478.54,Success,1,30260121,50.88,4.7854
+Bully,100,0,100,0,single failure (no failures at 0%),No,52,89,5097,9,481.033,Success,2,30260122,50.97,4.81033
+Bully,100,0,100,0,single failure (no failures at 0%),No,67,100,5013,8,474.058,Success,3,30260123,50.13,4.74058
+Bully,100,0,100,0,single failure (no failures at 0%),No,64,50,5149,8,483.104,Success,4,30260124,51.49,4.83104
+Bully,100,0,100,0,single failure (no failures at 0%),No,33,9,5070,7,476.857,Success,5,30260125,50.7,4.76857
+Bully,100,0,100,0,multiple failures (no failures at 0%),No,52,55,5067,8,477.027,Success,1,30260131,50.67,4.77027
+Bully,100,0,100,0,multiple failures (no failures at 0%),No,30,70,5117,7,481.469,Success,2,30260132,51.17,4.81469
+Bully,100,0,100,0,multiple failures (no failures at 0%),No,85,26,5106,9,483.078,Success,3,30260133,51.06,4.83078
+Bully,100,0,100,0,multiple failures (no failures at 0%),No,94,94,5143,9,486.17,Success,4,30260134,51.43,4.8617
+Bully,100,0,100,0,multiple failures (no failures at 0%),No,83,68,5141,9,486,Success,5,30260135,51.41,4.86
+Bully,100,0,100,0,coordinator failure (no failures at 0%),No,4,83,5030,7,476.287,Success,1,30260141,50.3,4.76287
+Bully,100,0,100,0,coordinator failure (no failures at 0%),No,91,48,5057,8,475.881,Success,2,30260142,50.57,4.75881
+Bully,100,0,100,0,coordinator failure (no failures at 0%),No,88,34,5024,8,475.323,Success,3,30260143,50.24,4.75323
+Bully,100,0,100,0,coordinator failure (no failures at 0%),No,57,58,5148,7,484.131,Success,4,30260144,51.48,4.84131
+Bully,100,0,100,0,coordinator failure (no failures at 0%),No,50,46,5070,8,476.332,Success,5,30260145,50.7,4.76332
+Ring,100,0,100,0,no failure,No,13,7,296,3,49.142,Success,1,30260211,2.96,0.49142
+Ring,100,0,100,0,no failure,No,93,74,270,1,47.678,Success,2,30260212,2.7,0.47678
+Ring,100,0,100,0,no failure,No,33,46,276,3,45.189,Success,3,30260213,2.76,0.45189
+Ring,100,0,100,0,no failure,No,68,60,281,3,47.739,Success,4,30260214,2.81,0.47739
+Ring,100,0,100,0,no failure,No,21,9,287,3,49.045,Success,5,30260215,2.87,0.49045
+Ring,100,0,100,0,single failure (no failures at 0%),No,60,34,262,1,44.99,Success,1,30260221,2.62,0.4499
+Ring,100,0,100,0,single failure (no failures at 0%),No,64,10,260,2,47.936,Success,2,30260222,2.6,0.47936
+Ring,100,0,100,0,single failure (no failures at 0%),No,75,89,262,1,46.936,Success,3,30260223,2.62,0.46936
+Ring,100,0,100,0,single failure (no failures at 0%),No,65,14,292,1,48.28,Success,4,30260224,2.92,0.4828
+Ring,100,0,100,0,single failure (no failures at 0%),No,37,26,264,2,46.201,Success,5,30260225,2.64,0.46201
+Ring,100,0,100,0,multiple failures (no failures at 0%),No,5,52,281,2,46.812,Success,1,30260231,2.81,0.46812
+Ring,100,0,100,0,multiple failures (no failures at 0%),No,11,93,247,1,47.553,Success,2,30260232,2.47,0.47553
+Ring,100,0,100,0,multiple failures (no failures at 0%),No,33,12,285,3,48.326,Success,3,30260233,2.85,0.48326
+Ring,100,0,100,0,multiple failures (no failures at 0%),No,48,43,272,1,46.654,Success,4,30260234,2.72,0.46654
+Ring,100,0,100,0,multiple failures (no failures at 0%),No,19,93,257,2,47.743,Success,5,30260235,2.57,0.47743
+Ring,100,0,100,0,coordinator failure (no failures at 0%),No,40,37,260,3,45.852,Success,1,30260241,2.6,0.45852
+Ring,100,0,100,0,coordinator failure (no failures at 0%),No,34,72,260,1,46.377,Success,2,30260242,2.6,0.46377
+Ring,100,0,100,0,coordinator failure (no failures at 0%),No,90,75,243,1,45.984,Success,3,30260243,2.43,0.45984
+Ring,100,0,100,0,coordinator failure (no failures at 0%),No,2,47,294,1,49.18,Success,4,30260244,2.94,0.4918
+Ring,100,0,100,0,coordinator failure (no failures at 0%),No,87,90,282,1,46.544,Success,5,30260245,2.82,0.46544
+Bully,100,0,100,10,no failure,No,14,97,5092,9,481.67,Success,1,30270111,50.92,4.8167
+Bully,100,0,100,10,no failure,No,62,94,5076,9,479.299,Success,2,30270112,50.76,4.79299
+Bully,100,0,100,10,no failure,No,45,2,5073,9,477.717,Success,3,30270113,50.73,4.77717
+Bully,100,0,100,10,no failure,No,34,7,5119,9,480.059,Success,4,30270114,51.19,4.80059
+Bully,100,0,100,10,no failure,No,75,71,5027,9,476.59,Success,5,30270115,50.27,4.7659
+Bully,100,1,99,10,single failure,No,38,23,5207,8,485.285,Success,1,30270121,52.596,4.90187
+Bully,100,1,99,10,single failure,No,63,69,5197,8,487.715,Success,2,30270122,52.495,4.92641
+Bully,100,1,99,10,single failure,No,87,40,5218,7,489.784,Success,3,30270123,52.707,4.94731
+Bully,100,1,99,10,single failure,No,87,42,5171,9,481.708,Success,4,30270124,52.232,4.86574
+Bully,100,1,99,10,single failure,No,66,29,5198,8,485.045,Success,5,30270125,52.505,4.89944
+Bully,100,10,90,10,multiple failures,No,97,66,6584,9,575.716,Success,1,30270131,73.156,6.39684
+Bully,100,10,90,10,multiple failures,No,33,46,6618,9,576.576,Success,2,30270132,73.533,6.4064
+Bully,100,10,90,10,multiple failures,No,78,32,6666,8,580.141,Success,3,30270133,74.067,6.44601
+Bully,100,10,90,10,multiple failures,No,8,24,6682,9,578.624,Success,4,30270134,74.244,6.42916
+Bully,100,10,90,10,multiple failures,No,89,49,6594,7,574.326,Success,5,30270135,73.267,6.3814
+Bully,100,1,99,10,coordinator failure,Yes,40,3,5287,9,493.03,Success,1,30270141,53.404,4.9801
+Bully,100,1,99,10,coordinator failure,Yes,82,83,5176,9,486.453,Success,2,30270142,52.283,4.91367
+Bully,100,1,99,10,coordinator failure,Yes,18,2,5173,9,483.864,Success,3,30270143,52.253,4.88752
+Bully,100,1,99,10,coordinator failure,Yes,87,33,5242,8,488.236,Success,4,30270144,52.949,4.93168
+Bully,100,1,99,10,coordinator failure,Yes,17,53,5199,9,488.414,Success,5,30270145,52.515,4.93347
+Ring,100,0,100,10,no failure,No,100,29,290,3,47.485,Success,1,30270211,2.9,0.47485
+Ring,100,0,100,10,no failure,No,58,75,234,3,44.835,Success,2,30270212,2.34,0.44835
+Ring,100,0,100,10,no failure,No,98,14,283,1,45.832,Success,3,30270213,2.83,0.45832
+Ring,100,0,100,10,no failure,No,37,94,238,2,45.68,Success,4,30270214,2.38,0.4568
+Ring,100,0,100,10,no failure,No,7,25,298,2,47.693,Success,5,30270215,2.98,0.47693
+Ring,100,1,99,10,single failure,No,97,24,267,1,47.757,Success,1,30270221,2.697,0.48239
+Ring,100,1,99,10,single failure,No,56,73,272,1,45.867,Success,2,30270222,2.747,0.4633
+Ring,100,1,99,10,single failure,No,62,41,302,1,47.51,Success,3,30270223,3.051,0.4799
+Ring,100,1,99,10,single failure,No,75,91,308,3,48.926,Success,4,30270224,3.111,0.4942
+Ring,100,1,99,10,single failure,No,47,65,284,2,48.031,Success,5,30270225,2.869,0.48516
+Ring,100,10,90,10,multiple failures,No,53,75,369,3,55.233,Success,1,30270231,4.1,0.6137
+Ring,100,10,90,10,multiple failures,No,46,69,374,1,58.592,Success,2,30270232,4.156,0.65102
+Ring,100,10,90,10,multiple failures,No,61,35,304,2,52.82,Success,3,30270233,3.378,0.58689
+Ring,100,10,90,10,multiple failures,No,38,47,355,2,56.326,Success,4,30270234,3.944,0.62584
+Ring,100,10,90,10,multiple failures,No,9,54,316,3,53.575,Success,5,30270235,3.511,0.59528
+Ring,100,1,99,10,coordinator failure,Yes,77,54,254,2,47.284,Success,1,30270241,2.566,0.47762
+Ring,100,1,99,10,coordinator failure,Yes,56,97,302,2,50.076,Success,2,30270242,3.051,0.50582
+Ring,100,1,99,10,coordinator failure,Yes,32,1,280,2,46.596,Success,3,30270243,2.828,0.47067
+Ring,100,1,99,10,coordinator failure,Yes,35,23,276,3,49.105,Success,4,30270244,2.788,0.49601
+Ring,100,1,99,10,coordinator failure,Yes,59,58,268,3,47.344,Success,5,30270245,2.707,0.47822
+Bully,100,0,100,20,no failure,No,60,79,5072,7,479.623,Success,1,30280111,50.72,4.79623
+Bully,100,0,100,20,no failure,No,45,19,5096,7,481.573,Success,2,30280112,50.96,4.81573
+Bully,100,0,100,20,no failure,No,56,26,5130,9,483.28,Success,3,30280113,51.3,4.8328
+Bully,100,0,100,20,no failure,No,74,26,5146,8,483.741,Success,4,30280114,51.46,4.83741
+Bully,100,0,100,20,no failure,No,5,32,5052,7,478.671,Success,5,30280115,50.52,4.78671
+Bully,100,1,99,20,single failure,No,69,47,5182,9,485.775,Success,1,30280121,52.343,4.90682
+Bully,100,1,99,20,single failure,No,56,23,5287,9,493.732,Success,2,30280122,53.404,4.98719
+Bully,100,1,99,20,single failure,No,95,74,5192,9,485.916,Success,3,30280123,52.444,4.90824
+Bully,100,1,99,20,single failure,No,61,88,5156,9,483.611,Success,4,30280124,52.081,4.88496
+Bully,100,1,99,20,single failure,No,79,89,5199,9,485.72,Success,5,30280125,52.515,4.90626
+Bully,100,20,80,20,multiple failures,No,67,84,8043,9,663.084,Success,1,30280131,100.537,8.28855
+Bully,100,20,80,20,multiple failures,No,23,56,8051,8,665.63,Success,2,30280132,100.638,8.32038
+Bully,100,20,80,20,multiple failures,No,15,31,8200,9,678.817,Success,3,30280133,102.5,8.48521
+Bully,100,20,80,20,multiple failures,No,37,72,8101,9,665.983,Success,4,30280134,101.263,8.32479
+Bully,100,20,80,20,multiple failures,No,41,40,8144,7,673.856,Success,5,30280135,101.8,8.4232
+Bully,100,1,99,20,coordinator failure,Yes,60,51,5281,7,494.477,Success,1,30280141,53.343,4.99472
+Bully,100,1,99,20,coordinator failure,Yes,38,98,5178,7,484.614,Success,2,30280142,52.303,4.89509
+Bully,100,1,99,20,coordinator failure,Yes,53,90,5265,8,491.773,Success,3,30280143,53.182,4.9674
+Bully,100,1,99,20,coordinator failure,Yes,49,38,5276,8,491.312,Success,4,30280144,53.293,4.96275
+Bully,100,1,99,20,coordinator failure,Yes,38,62,5176,7,482.44,Success,5,30280145,52.283,4.87313
+Ring,100,0,100,20,no failure,No,25,50,275,3,45.966,Success,1,30280211,2.75,0.45966
+Ring,100,0,100,20,no failure,No,13,76,250,2,45.105,Success,2,30280212,2.5,0.45105
+Ring,100,0,100,20,no failure,No,98,61,299,1,47.38,Success,3,30280213,2.99,0.4738
+Ring,100,0,100,20,no failure,No,23,22,298,3,48.64,Success,4,30280214,2.98,0.4864
+Ring,100,0,100,20,no failure,No,17,56,271,2,46.578,Success,5,30280215,2.71,0.46578
+Ring,100,1,99,20,single failure,No,43,19,295,3,46.66,Success,1,30280221,2.98,0.47131
+Ring,100,1,99,20,single failure,No,50,58,266,1,47.372,Success,2,30280222,2.687,0.47851
+Ring,100,1,99,20,single failure,No,19,98,263,2,46.516,Success,3,30280223,2.657,0.46986
+Ring,100,1,99,20,single failure,No,89,73,306,2,47.687,Success,4,30280224,3.091,0.48169
+Ring,100,1,99,20,single failure,No,58,23,245,3,46.376,Success,5,30280225,2.475,0.46844
+Ring,100,20,80,20,multiple failures,No,69,25,408,2,66.584,Success,1,30280231,5.1,0.8323
+Ring,100,20,80,20,multiple failures,No,64,96,414,1,63.856,Success,2,30280232,5.175,0.7982
+Ring,100,20,80,20,multiple failures,No,95,72,376,1,64.158,Success,3,30280233,4.7,0.80197
+Ring,100,20,80,20,multiple failures,No,60,68,394,1,66.64,Success,4,30280234,4.925,0.833
+Ring,100,20,80,20,multiple failures,No,36,21,403,3,65.857,Success,5,30280235,5.037,0.82321
+Ring,100,1,99,20,coordinator failure,Yes,60,18,251,1,47.596,Success,1,30280241,2.535,0.48077
+Ring,100,1,99,20,coordinator failure,Yes,2,56,260,3,47.081,Success,2,30280242,2.626,0.47557
+Ring,100,1,99,20,coordinator failure,Yes,24,29,278,2,48.365,Success,3,30280243,2.808,0.48854
+Ring,100,1,99,20,coordinator failure,Yes,64,98,253,1,45.091,Success,4,30280244,2.556,0.45546
+Ring,100,1,99,20,coordinator failure,Yes,36,64,288,3,46.98,Success,5,30280245,2.909,0.47455
+Bully,100,0,100,30,no failure,No,93,60,5094,9,479.847,Success,1,30290111,50.94,4.79847
+Bully,100,0,100,30,no failure,No,7,92,5105,7,482.177,Success,2,30290112,51.05,4.82177
+Bully,100,0,100,30,no failure,No,64,33,5086,8,481.638,Success,3,30290113,50.86,4.81638
+Bully,100,0,100,30,no failure,No,17,56,5125,9,484.765,Success,4,30290114,51.25,4.84765
+Bully,100,0,100,30,no failure,No,22,75,5145,9,484.241,Success,5,30290115,51.45,4.84241
+Bully,100,1,99,30,single failure,No,51,6,5228,9,486.695,Success,1,30290121,52.808,4.91611
+Bully,100,1,99,30,single failure,No,12,24,5173,9,485.888,Success,2,30290122,52.253,4.90796
+Bully,100,1,99,30,single failure,No,1,48,5258,9,491.291,Success,3,30290123,53.111,4.96254
+Bully,100,1,99,30,single failure,No,30,35,5181,8,483.43,Success,4,30290124,52.333,4.88313
+Bully,100,1,99,30,single failure,No,94,23,5223,9,488.746,Success,5,30290125,52.758,4.93683
+Bully,100,30,70,30,multiple failures,No,82,47,9580,8,761.122,Success,1,30290131,136.857,10.87317
+Bully,100,30,70,30,multiple failures,No,67,98,9656,8,766.387,Success,2,30290132,137.943,10.94839
+Bully,100,30,70,30,multiple failures,No,46,57,9534,7,759.632,Success,3,30290133,136.2,10.85189
+Bully,100,30,70,30,multiple failures,No,53,80,9741,9,769.565,Success,4,30290134,139.157,10.99379
+Bully,100,30,70,30,multiple failures,No,68,51,9591,7,762.746,Success,5,30290135,137.014,10.89637
+Bully,100,1,99,30,coordinator failure,Yes,55,96,5275,9,494.183,Success,1,30290141,53.283,4.99175
+Bully,100,1,99,30,coordinator failure,Yes,84,47,5190,7,487.516,Success,2,30290142,52.424,4.9244
+Bully,100,1,99,30,coordinator failure,Yes,92,1,5282,8,490.701,Success,3,30290143,53.354,4.95658
+Bully,100,1,99,30,coordinator failure,Yes,3,96,5301,7,492.013,Success,4,30290144,53.545,4.96983
+Bully,100,1,99,30,coordinator failure,Yes,5,45,5197,7,486.94,Success,5,30290145,52.495,4.91859
+Ring,100,0,100,30,no failure,No,55,40,289,2,48.927,Success,1,30290211,2.89,0.48927
+Ring,100,0,100,30,no failure,No,74,88,256,1,47.159,Success,2,30290212,2.56,0.47159
+Ring,100,0,100,30,no failure,No,67,54,261,3,45.217,Success,3,30290213,2.61,0.45217
+Ring,100,0,100,30,no failure,No,89,3,265,2,46.715,Success,4,30290214,2.65,0.46715
+Ring,100,0,100,30,no failure,No,45,27,291,3,46.99,Success,5,30290215,2.91,0.4699
+Ring,100,1,99,30,single failure,No,38,15,289,1,48.322,Success,1,30290221,2.919,0.4881
+Ring,100,1,99,30,single failure,No,4,4,280,3,47.602,Success,2,30290222,2.828,0.48083
+Ring,100,1,99,30,single failure,No,48,94,259,1,46.887,Success,3,30290223,2.616,0.47361
+Ring,100,1,99,30,single failure,No,89,96,269,3,47.549,Success,4,30290224,2.717,0.48029
+Ring,100,1,99,30,single failure,No,99,66,251,3,48.153,Success,5,30290225,2.535,0.48639
+Ring,100,30,70,30,multiple failures,No,25,75,395,2,72.094,Success,1,30290231,5.643,1.02991
+Ring,100,30,70,30,multiple failures,No,8,85,443,1,75.418,Success,2,30290232,6.329,1.0774
+Ring,100,30,70,30,multiple failures,No,54,94,450,1,70.404,Success,3,30290233,6.429,1.00577
+Ring,100,30,70,30,multiple failures,No,71,68,507,1,74.899,Success,4,30290234,7.243,1.06999
+Ring,100,30,70,30,multiple failures,No,63,43,456,1,75.363,Success,5,30290235,6.514,1.07661
+Ring,100,1,99,30,coordinator failure,Yes,79,5,269,2,45.569,Success,1,30290241,2.717,0.46029
+Ring,100,1,99,30,coordinator failure,Yes,34,38,241,1,47.93,Success,2,30290242,2.434,0.48414
+Ring,100,1,99,30,coordinator failure,Yes,93,100,253,1,46.184,Success,3,30290243,2.556,0.46651
+Ring,100,1,99,30,coordinator failure,Yes,68,45,290,3,47.101,Success,4,30290244,2.929,0.47577
+Ring,100,1,99,30,coordinator failure,Yes,12,46,259,1,45.832,Success,5,30290245,2.616,0.46295
+Bully,100,0,100,40,no failure,No,34,81,5073,7,479.947,Success,1,30300111,50.73,4.79947
+Bully,100,0,100,40,no failure,No,28,28,5068,8,479.102,Success,2,30300112,50.68,4.79102
+Bully,100,0,100,40,no failure,No,7,40,5012,8,473.962,Success,3,30300113,50.12,4.73962
+Bully,100,0,100,40,no failure,No,11,66,5051,7,476.047,Success,4,30300114,50.51,4.76047
+Bully,100,0,100,40,no failure,No,72,31,5035,7,475.154,Success,5,30300115,50.35,4.75154
+Bully,100,1,99,40,single failure,No,78,37,5276,8,494.323,Success,1,30300121,53.293,4.99316
+Bully,100,1,99,40,single failure,No,7,92,5290,8,494.811,Success,2,30300122,53.434,4.99809
+Bully,100,1,99,40,single failure,No,53,38,5293,8,495.612,Success,3,30300123,53.465,5.00618
+Bully,100,1,99,40,single failure,No,59,3,5271,9,491.992,Success,4,30300124,53.242,4.96962
+Bully,100,1,99,40,single failure,No,46,92,5222,8,490.077,Success,5,30300125,52.747,4.95027
+Bully,100,40,60,40,multiple failures,No,62,67,11198,9,860.574,Success,1,30300131,186.633,14.3429
+Bully,100,40,60,40,multiple failures,No,63,66,11169,7,860.599,Success,2,30300132,186.15,14.34332
+Bully,100,40,60,40,multiple failures,No,72,44,11277,7,866.548,Success,3,30300133,187.95,14.44247
+Bully,100,40,60,40,multiple failures,No,16,71,11068,8,857.9,Success,4,30300134,184.467,14.29833
+Bully,100,40,60,40,multiple failures,No,53,44,11253,7,864.549,Success,5,30300135,187.55,14.40915
+Bully,100,1,99,40,coordinator failure,Yes,73,94,5193,9,487.65,Success,1,30300141,52.455,4.92576
+Bully,100,1,99,40,coordinator failure,Yes,67,75,5262,7,493.263,Success,2,30300142,53.152,4.98245
+Bully,100,1,99,40,coordinator failure,Yes,23,5,5245,8,487.865,Success,3,30300143,52.98,4.92793
+Bully,100,1,99,40,coordinator failure,Yes,76,83,5243,9,488.689,Success,4,30300144,52.96,4.93625
+Bully,100,1,99,40,coordinator failure,Yes,90,16,5176,9,484.314,Success,5,30300145,52.283,4.89206
+Ring,100,0,100,40,no failure,No,24,1,267,2,45.173,Success,1,30300211,2.67,0.45173
+Ring,100,0,100,40,no failure,No,84,20,251,1,44.486,Success,2,30300212,2.51,0.44486
+Ring,100,0,100,40,no failure,No,79,20,233,3,46.773,Success,3,30300213,2.33,0.46773
+Ring,100,0,100,40,no failure,No,57,52,241,1,46.082,Success,4,30300214,2.41,0.46082
+Ring,100,0,100,40,no failure,No,31,37,251,3,46.011,Success,5,30300215,2.51,0.46011
+Ring,100,1,99,40,single failure,No,74,46,294,2,48.663,Success,1,30300221,2.97,0.49155
+Ring,100,1,99,40,single failure,No,67,24,290,2,47.136,Success,2,30300222,2.929,0.47612
+Ring,100,1,99,40,single failure,No,80,45,295,3,46.938,Success,3,30300223,2.98,0.47412
+Ring,100,1,99,40,single failure,No,87,55,248,3,47.289,Success,4,30300224,2.505,0.47767
+Ring,100,1,99,40,single failure,No,87,91,280,1,47.947,Success,5,30300225,2.828,0.48431
+Ring,100,40,60,40,multiple failures,No,6,100,431,2,77.717,Success,1,30300231,7.183,1.29528
+Ring,100,40,60,40,multiple failures,No,21,63,442,3,80.859,Success,2,30300232,7.367,1.34765
+Ring,100,40,60,40,multiple failures,No,30,53,515,3,83.18,Success,3,30300233,8.583,1.38633
+Ring,100,40,60,40,multiple failures,No,12,54,550,3,80.849,Success,4,30300234,9.167,1.34748
+Ring,100,40,60,40,multiple failures,No,16,42,495,1,78.251,Success,5,30300235,8.25,1.30418
+Ring,100,1,99,40,coordinator failure,Yes,17,87,304,2,49.489,Success,1,30300241,3.071,0.49989
+Ring,100,1,99,40,coordinator failure,Yes,50,61,251,1,45.594,Success,2,30300242,2.535,0.46055
+Ring,100,1,99,40,coordinator failure,Yes,16,37,297,3,48.792,Success,3,30300243,3,0.49285
+Ring,100,1,99,40,coordinator failure,Yes,45,3,304,1,48.771,Success,4,30300244,3.071,0.49264
+Ring,100,1,99,40,coordinator failure,Yes,47,75,273,1,46.405,Success,5,30300245,2.758,0.46874
