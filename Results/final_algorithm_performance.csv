@@ -1,0 +1,3 @@
+algorithm,Total_Executions,Avg_Election_Time_ms,Min_Election_Time_ms,Max_Election_Time_ms,Avg_Messages,Min_Messages,Max_Messages,Avg_Election_Rounds,Avg_Messages_Per_Active_Node,Avg_Time_Per_Active_Node
+Bully,500,147.38,5.094,866.548,1520.534,12,11277,6.078,24.084,2.923
+Ring,500,20.008,2.713,83.18,107.25,10,550,1.976,3.08,0.726
